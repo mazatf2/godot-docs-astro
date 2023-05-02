@@ -1,0 +1,38 @@
+{
+	"extends": "astro/tsconfigs/strict",
+	"compilerOptions": {
+		"jsx": "react",
+		"strict": true,
+		"module": "CommonJS",
+		"target": "es6",
+		"lib": [
+			"DOM", "DOM.Iterable", "ES2021", "es6"
+		],
+		"allowJs": true,
+		"checkJs": false,
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"downlevelIteration": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"noEmit": true,
+		"noImplicitAny": true
+	},
+	"include": [
+		"src/**/*.json",
+		"src/**/*.ts",
+		"src/**/*.tsx",
+		"src/**/*.ts",
+		"src/**/*.tsx",
+		"src/*.ts",
+		"src/*.tsx",
+		"src/*.js",
+		"src/*.json",
+		"src/**/*.js"
+	],
+	"ts-node": {
+		"swc": true
+	}
+}

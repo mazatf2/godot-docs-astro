@@ -1,0 +1,7032 @@
+{
+	"AESContext": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "AESContext"
+	},
+	"AStar2D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "AStar2D"
+	},
+	"AStar3D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "AStar3D"
+	},
+	"AStarGrid2D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "AStarGrid2D"
+	},
+	"AcceptDialog": {
+		"inherits": [
+			"Window"
+		],
+		"inheritedBy": [
+			"ConfirmationDialog"
+		],
+		"name": "AcceptDialog"
+	},
+	"AnimatableBody2D": {
+		"inherits": [
+			"StaticBody2D"
+		],
+		"inheritedBy": [],
+		"name": "AnimatableBody2D"
+	},
+	"AnimatableBody3D": {
+		"inherits": [
+			"StaticBody3D"
+		],
+		"inheritedBy": [],
+		"name": "AnimatableBody3D"
+	},
+	"AnimatedSprite2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "AnimatedSprite2D"
+	},
+	"AnimatedSprite3D": {
+		"inherits": [
+			"SpriteBase3D"
+		],
+		"inheritedBy": [],
+		"name": "AnimatedSprite3D"
+	},
+	"AnimatedTexture": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "AnimatedTexture"
+	},
+	"Animation": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "Animation"
+	},
+	"AnimationLibrary": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "AnimationLibrary"
+	},
+	"AnimationNode": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"AnimationNodeOutput",
+			"AnimationNodeSync",
+			"AnimationNodeTimeScale",
+			"AnimationNodeTimeSeek",
+			"AnimationRootNode"
+		],
+		"name": "AnimationNode"
+	},
+	"AnimationNodeAdd2": {
+		"inherits": [
+			"AnimationNodeSync"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeAdd2"
+	},
+	"AnimationNodeAdd3": {
+		"inherits": [
+			"AnimationNodeSync"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeAdd3"
+	},
+	"AnimationNodeAnimation": {
+		"inherits": [
+			"AnimationRootNode"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeAnimation"
+	},
+	"AnimationNodeBlend2": {
+		"inherits": [
+			"AnimationNodeSync"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeBlend2"
+	},
+	"AnimationNodeBlend3": {
+		"inherits": [
+			"AnimationNodeSync"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeBlend3"
+	},
+	"AnimationNodeBlendSpace1D": {
+		"inherits": [
+			"AnimationRootNode"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeBlendSpace1D"
+	},
+	"AnimationNodeBlendSpace2D": {
+		"inherits": [
+			"AnimationRootNode"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeBlendSpace2D"
+	},
+	"AnimationNodeBlendTree": {
+		"inherits": [
+			"AnimationRootNode"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeBlendTree"
+	},
+	"AnimationNodeOneShot": {
+		"inherits": [
+			"AnimationNodeSync"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeOneShot"
+	},
+	"AnimationNodeOutput": {
+		"inherits": [
+			"AnimationNode"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeOutput"
+	},
+	"AnimationNodeStateMachine": {
+		"inherits": [
+			"AnimationRootNode"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeStateMachine"
+	},
+	"AnimationNodeStateMachinePlayback": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeStateMachinePlayback"
+	},
+	"AnimationNodeStateMachineTransition": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeStateMachineTransition"
+	},
+	"AnimationNodeSync": {
+		"inherits": [
+			"AnimationNode"
+		],
+		"inheritedBy": [
+			"AnimationNodeAdd2",
+			"AnimationNodeAdd3",
+			"AnimationNodeBlend2",
+			"AnimationNodeBlend3",
+			"AnimationNodeOneShot",
+			"AnimationNodeTransition"
+		],
+		"name": "AnimationNodeSync"
+	},
+	"AnimationNodeTimeScale": {
+		"inherits": [
+			"AnimationNode"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeTimeScale"
+	},
+	"AnimationNodeTimeSeek": {
+		"inherits": [
+			"AnimationNode"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeTimeSeek"
+	},
+	"AnimationNodeTransition": {
+		"inherits": [
+			"AnimationNodeSync"
+		],
+		"inheritedBy": [],
+		"name": "AnimationNodeTransition"
+	},
+	"AnimationPlayer": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "AnimationPlayer"
+	},
+	"AnimationRootNode": {
+		"inherits": [
+			"AnimationNode"
+		],
+		"inheritedBy": [
+			"AnimationNodeAnimation",
+			"AnimationNodeBlendSpace1D",
+			"AnimationNodeBlendSpace2D",
+			"AnimationNodeBlendTree",
+			"AnimationNodeStateMachine"
+		],
+		"name": "AnimationRootNode"
+	},
+	"AnimationTrackEditPlugin": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "AnimationTrackEditPlugin"
+	},
+	"AnimationTree": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "AnimationTree"
+	},
+	"Area2D": {
+		"inherits": [
+			"CollisionObject2D"
+		],
+		"inheritedBy": [],
+		"name": "Area2D"
+	},
+	"Area3D": {
+		"inherits": [
+			"CollisionObject3D"
+		],
+		"inheritedBy": [],
+		"name": "Area3D"
+	},
+	"ArrayMesh": {
+		"inherits": [
+			"Mesh"
+		],
+		"inheritedBy": [],
+		"name": "ArrayMesh"
+	},
+	"ArrayOccluder3D": {
+		"inherits": [
+			"Occluder3D"
+		],
+		"inheritedBy": [],
+		"name": "ArrayOccluder3D"
+	},
+	"AspectRatioContainer": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [],
+		"name": "AspectRatioContainer"
+	},
+	"AtlasTexture": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "AtlasTexture"
+	},
+	"AudioBusLayout": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "AudioBusLayout"
+	},
+	"AudioEffect": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"AudioEffectAmplify",
+			"AudioEffectCapture",
+			"AudioEffectChorus",
+			"AudioEffectCompressor",
+			"AudioEffectDelay",
+			"AudioEffectDistortion",
+			"AudioEffectEQ",
+			"AudioEffectFilter",
+			"AudioEffectLimiter",
+			"AudioEffectPanner",
+			"AudioEffectPhaser",
+			"AudioEffectPitchShift",
+			"AudioEffectRecord",
+			"AudioEffectReverb",
+			"AudioEffectSpectrumAnalyzer",
+			"AudioEffectStereoEnhance"
+		],
+		"name": "AudioEffect"
+	},
+	"AudioEffectAmplify": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectAmplify"
+	},
+	"AudioEffectBandLimitFilter": {
+		"inherits": [
+			"AudioEffectFilter"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectBandLimitFilter"
+	},
+	"AudioEffectBandPassFilter": {
+		"inherits": [
+			"AudioEffectFilter"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectBandPassFilter"
+	},
+	"AudioEffectCapture": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectCapture"
+	},
+	"AudioEffectChorus": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectChorus"
+	},
+	"AudioEffectCompressor": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectCompressor"
+	},
+	"AudioEffectDelay": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectDelay"
+	},
+	"AudioEffectDistortion": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectDistortion"
+	},
+	"AudioEffectEQ": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [
+			"AudioEffectEQ10",
+			"AudioEffectEQ21",
+			"AudioEffectEQ6"
+		],
+		"name": "AudioEffectEQ"
+	},
+	"AudioEffectEQ10": {
+		"inherits": [
+			"AudioEffectEQ"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectEQ10"
+	},
+	"AudioEffectEQ21": {
+		"inherits": [
+			"AudioEffectEQ"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectEQ21"
+	},
+	"AudioEffectEQ6": {
+		"inherits": [
+			"AudioEffectEQ"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectEQ6"
+	},
+	"AudioEffectFilter": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [
+			"AudioEffectBandLimitFilter",
+			"AudioEffectBandPassFilter",
+			"AudioEffectHighPassFilter",
+			"AudioEffectHighShelfFilter",
+			"AudioEffectLowPassFilter",
+			"AudioEffectLowShelfFilter",
+			"AudioEffectNotchFilter"
+		],
+		"name": "AudioEffectFilter"
+	},
+	"AudioEffectHighPassFilter": {
+		"inherits": [
+			"AudioEffectFilter"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectHighPassFilter"
+	},
+	"AudioEffectHighShelfFilter": {
+		"inherits": [
+			"AudioEffectFilter"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectHighShelfFilter"
+	},
+	"AudioEffectInstance": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"AudioEffectSpectrumAnalyzerInstance"
+		],
+		"name": "AudioEffectInstance"
+	},
+	"AudioEffectLimiter": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectLimiter"
+	},
+	"AudioEffectLowPassFilter": {
+		"inherits": [
+			"AudioEffectFilter"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectLowPassFilter"
+	},
+	"AudioEffectLowShelfFilter": {
+		"inherits": [
+			"AudioEffectFilter"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectLowShelfFilter"
+	},
+	"AudioEffectNotchFilter": {
+		"inherits": [
+			"AudioEffectFilter"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectNotchFilter"
+	},
+	"AudioEffectPanner": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectPanner"
+	},
+	"AudioEffectPhaser": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectPhaser"
+	},
+	"AudioEffectPitchShift": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectPitchShift"
+	},
+	"AudioEffectRecord": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectRecord"
+	},
+	"AudioEffectReverb": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectReverb"
+	},
+	"AudioEffectSpectrumAnalyzer": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectSpectrumAnalyzer"
+	},
+	"AudioEffectSpectrumAnalyzerInstance": {
+		"inherits": [
+			"AudioEffectInstance"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectSpectrumAnalyzerInstance"
+	},
+	"AudioEffectStereoEnhance": {
+		"inherits": [
+			"AudioEffect"
+		],
+		"inheritedBy": [],
+		"name": "AudioEffectStereoEnhance"
+	},
+	"AudioListener2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "AudioListener2D"
+	},
+	"AudioListener3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "AudioListener3D"
+	},
+	"AudioServer": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "AudioServer"
+	},
+	"AudioStream": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"AudioStreamGenerator",
+			"AudioStreamMP3",
+			"AudioStreamMicrophone",
+			"AudioStreamOggVorbis",
+			"AudioStreamPolyphonic",
+			"AudioStreamRandomizer",
+			"AudioStreamWAV"
+		],
+		"name": "AudioStream"
+	},
+	"AudioStreamGenerator": {
+		"inherits": [
+			"AudioStream"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamGenerator"
+	},
+	"AudioStreamGeneratorPlayback": {
+		"inherits": [
+			"AudioStreamPlaybackResampled"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamGeneratorPlayback"
+	},
+	"AudioStreamMP3": {
+		"inherits": [
+			"AudioStream"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamMP3"
+	},
+	"AudioStreamMicrophone": {
+		"inherits": [
+			"AudioStream"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamMicrophone"
+	},
+	"AudioStreamOggVorbis": {
+		"inherits": [
+			"AudioStream"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamOggVorbis"
+	},
+	"AudioStreamPlayback": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"AudioStreamPlaybackPolyphonic",
+			"AudioStreamPlaybackResampled"
+		],
+		"name": "AudioStreamPlayback"
+	},
+	"AudioStreamPlaybackOggVorbis": {
+		"inherits": [
+			"AudioStreamPlaybackResampled"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamPlaybackOggVorbis"
+	},
+	"AudioStreamPlaybackPolyphonic": {
+		"inherits": [
+			"AudioStreamPlayback"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamPlaybackPolyphonic"
+	},
+	"AudioStreamPlaybackResampled": {
+		"inherits": [
+			"AudioStreamPlayback"
+		],
+		"inheritedBy": [
+			"AudioStreamGeneratorPlayback",
+			"AudioStreamPlaybackOggVorbis"
+		],
+		"name": "AudioStreamPlaybackResampled"
+	},
+	"AudioStreamPlayer": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamPlayer"
+	},
+	"AudioStreamPlayer2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamPlayer2D"
+	},
+	"AudioStreamPlayer3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamPlayer3D"
+	},
+	"AudioStreamPolyphonic": {
+		"inherits": [
+			"AudioStream"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamPolyphonic"
+	},
+	"AudioStreamRandomizer": {
+		"inherits": [
+			"AudioStream"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamRandomizer"
+	},
+	"AudioStreamWAV": {
+		"inherits": [
+			"AudioStream"
+		],
+		"inheritedBy": [],
+		"name": "AudioStreamWAV"
+	},
+	"BackBufferCopy": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "BackBufferCopy"
+	},
+	"BaseButton": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [
+			"Button",
+			"LinkButton",
+			"TextureButton"
+		],
+		"name": "BaseButton"
+	},
+	"BaseMaterial3D": {
+		"inherits": [
+			"Material"
+		],
+		"inheritedBy": [
+			"ORMMaterial3D",
+			"StandardMaterial3D"
+		],
+		"name": "BaseMaterial3D"
+	},
+	"BitMap": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "BitMap"
+	},
+	"Bone2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "Bone2D"
+	},
+	"BoneAttachment3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "BoneAttachment3D"
+	},
+	"BoneMap": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "BoneMap"
+	},
+	"BoxContainer": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [
+			"HBoxContainer",
+			"VBoxContainer"
+		],
+		"name": "BoxContainer"
+	},
+	"BoxMesh": {
+		"inherits": [
+			"PrimitiveMesh"
+		],
+		"inheritedBy": [],
+		"name": "BoxMesh"
+	},
+	"BoxOccluder3D": {
+		"inherits": [
+			"Occluder3D"
+		],
+		"inheritedBy": [],
+		"name": "BoxOccluder3D"
+	},
+	"BoxShape3D": {
+		"inherits": [
+			"Shape3D"
+		],
+		"inheritedBy": [],
+		"name": "BoxShape3D"
+	},
+	"Button": {
+		"inherits": [
+			"BaseButton"
+		],
+		"inheritedBy": [
+			"CheckBox",
+			"CheckButton",
+			"ColorPickerButton",
+			"MenuButton",
+			"OptionButton"
+		],
+		"name": "Button"
+	},
+	"ButtonGroup": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "ButtonGroup"
+	},
+	"CPUParticles2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "CPUParticles2D"
+	},
+	"CPUParticles3D": {
+		"inherits": [
+			"GeometryInstance3D"
+		],
+		"inheritedBy": [],
+		"name": "CPUParticles3D"
+	},
+	"CSGBox3D": {
+		"inherits": [
+			"CSGPrimitive3D"
+		],
+		"inheritedBy": [],
+		"name": "CSGBox3D"
+	},
+	"CSGCombiner3D": {
+		"inherits": [
+			"CSGShape3D"
+		],
+		"inheritedBy": [],
+		"name": "CSGCombiner3D"
+	},
+	"CSGCylinder3D": {
+		"inherits": [
+			"CSGPrimitive3D"
+		],
+		"inheritedBy": [],
+		"name": "CSGCylinder3D"
+	},
+	"CSGMesh3D": {
+		"inherits": [
+			"CSGPrimitive3D"
+		],
+		"inheritedBy": [],
+		"name": "CSGMesh3D"
+	},
+	"CSGPolygon3D": {
+		"inherits": [
+			"CSGPrimitive3D"
+		],
+		"inheritedBy": [],
+		"name": "CSGPolygon3D"
+	},
+	"CSGPrimitive3D": {
+		"inherits": [
+			"CSGShape3D"
+		],
+		"inheritedBy": [
+			"CSGBox3D",
+			"CSGCylinder3D",
+			"CSGMesh3D",
+			"CSGPolygon3D",
+			"CSGSphere3D",
+			"CSGTorus3D"
+		],
+		"name": "CSGPrimitive3D"
+	},
+	"CSGShape3D": {
+		"inherits": [
+			"GeometryInstance3D"
+		],
+		"inheritedBy": [
+			"CSGCombiner3D",
+			"CSGPrimitive3D"
+		],
+		"name": "CSGShape3D"
+	},
+	"CSGSphere3D": {
+		"inherits": [
+			"CSGPrimitive3D"
+		],
+		"inheritedBy": [],
+		"name": "CSGSphere3D"
+	},
+	"CSGTorus3D": {
+		"inherits": [
+			"CSGPrimitive3D"
+		],
+		"inheritedBy": [],
+		"name": "CSGTorus3D"
+	},
+	"CallbackTweener": {
+		"inherits": [
+			"Tweener"
+		],
+		"inheritedBy": [],
+		"name": "CallbackTweener"
+	},
+	"Camera2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "Camera2D"
+	},
+	"Camera3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [
+			"XRCamera3D"
+		],
+		"name": "Camera3D"
+	},
+	"CameraAttributes": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"CameraAttributesPhysical",
+			"CameraAttributesPractical"
+		],
+		"name": "CameraAttributes"
+	},
+	"CameraAttributesPhysical": {
+		"inherits": [
+			"CameraAttributes"
+		],
+		"inheritedBy": [],
+		"name": "CameraAttributesPhysical"
+	},
+	"CameraAttributesPractical": {
+		"inherits": [
+			"CameraAttributes"
+		],
+		"inheritedBy": [],
+		"name": "CameraAttributesPractical"
+	},
+	"CameraFeed": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "CameraFeed"
+	},
+	"CameraServer": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "CameraServer"
+	},
+	"CameraTexture": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "CameraTexture"
+	},
+	"CanvasGroup": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "CanvasGroup"
+	},
+	"CanvasItem": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [
+			"Control",
+			"Node2D"
+		],
+		"name": "CanvasItem"
+	},
+	"CanvasItemMaterial": {
+		"inherits": [
+			"Material"
+		],
+		"inheritedBy": [],
+		"name": "CanvasItemMaterial"
+	},
+	"CanvasLayer": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [
+			"ParallaxBackground"
+		],
+		"name": "CanvasLayer"
+	},
+	"CanvasModulate": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "CanvasModulate"
+	},
+	"CanvasTexture": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "CanvasTexture"
+	},
+	"CapsuleMesh": {
+		"inherits": [
+			"PrimitiveMesh"
+		],
+		"inheritedBy": [],
+		"name": "CapsuleMesh"
+	},
+	"CapsuleShape2D": {
+		"inherits": [
+			"Shape2D"
+		],
+		"inheritedBy": [],
+		"name": "CapsuleShape2D"
+	},
+	"CapsuleShape3D": {
+		"inherits": [
+			"Shape3D"
+		],
+		"inheritedBy": [],
+		"name": "CapsuleShape3D"
+	},
+	"CenterContainer": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [],
+		"name": "CenterContainer"
+	},
+	"CharFXTransform": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "CharFXTransform"
+	},
+	"CharacterBody2D": {
+		"inherits": [
+			"PhysicsBody2D"
+		],
+		"inheritedBy": [],
+		"name": "CharacterBody2D"
+	},
+	"CharacterBody3D": {
+		"inherits": [
+			"PhysicsBody3D"
+		],
+		"inheritedBy": [],
+		"name": "CharacterBody3D"
+	},
+	"CheckBox": {
+		"inherits": [
+			"Button"
+		],
+		"inheritedBy": [],
+		"name": "CheckBox"
+	},
+	"CheckButton": {
+		"inherits": [
+			"Button"
+		],
+		"inheritedBy": [],
+		"name": "CheckButton"
+	},
+	"CircleShape2D": {
+		"inherits": [
+			"Shape2D"
+		],
+		"inheritedBy": [],
+		"name": "CircleShape2D"
+	},
+	"ClassDB": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "ClassDB"
+	},
+	"CodeEdit": {
+		"inherits": [
+			"TextEdit"
+		],
+		"inheritedBy": [],
+		"name": "CodeEdit"
+	},
+	"CodeHighlighter": {
+		"inherits": [
+			"SyntaxHighlighter"
+		],
+		"inheritedBy": [],
+		"name": "CodeHighlighter"
+	},
+	"CollisionObject2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [
+			"Area2D",
+			"PhysicsBody2D"
+		],
+		"name": "CollisionObject2D"
+	},
+	"CollisionObject3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [
+			"Area3D",
+			"PhysicsBody3D"
+		],
+		"name": "CollisionObject3D"
+	},
+	"CollisionPolygon2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "CollisionPolygon2D"
+	},
+	"CollisionPolygon3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "CollisionPolygon3D"
+	},
+	"CollisionShape2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "CollisionShape2D"
+	},
+	"CollisionShape3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "CollisionShape3D"
+	},
+	"ColorPicker": {
+		"inherits": [
+			"VBoxContainer"
+		],
+		"inheritedBy": [],
+		"name": "ColorPicker"
+	},
+	"ColorPickerButton": {
+		"inherits": [
+			"Button"
+		],
+		"inheritedBy": [],
+		"name": "ColorPickerButton"
+	},
+	"ColorRect": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "ColorRect"
+	},
+	"CompressedCubemap": {
+		"inherits": [
+			"CompressedTextureLayered"
+		],
+		"inheritedBy": [],
+		"name": "CompressedCubemap"
+	},
+	"CompressedCubemapArray": {
+		"inherits": [
+			"CompressedTextureLayered"
+		],
+		"inheritedBy": [],
+		"name": "CompressedCubemapArray"
+	},
+	"CompressedTexture2D": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "CompressedTexture2D"
+	},
+	"CompressedTexture2DArray": {
+		"inherits": [
+			"CompressedTextureLayered"
+		],
+		"inheritedBy": [],
+		"name": "CompressedTexture2DArray"
+	},
+	"CompressedTexture3D": {
+		"inherits": [
+			"Texture3D"
+		],
+		"inheritedBy": [],
+		"name": "CompressedTexture3D"
+	},
+	"CompressedTextureLayered": {
+		"inherits": [
+			"TextureLayered"
+		],
+		"inheritedBy": [
+			"CompressedCubemap",
+			"CompressedCubemapArray",
+			"CompressedTexture2DArray"
+		],
+		"name": "CompressedTextureLayered"
+	},
+	"ConcavePolygonShape2D": {
+		"inherits": [
+			"Shape2D"
+		],
+		"inheritedBy": [],
+		"name": "ConcavePolygonShape2D"
+	},
+	"ConcavePolygonShape3D": {
+		"inherits": [
+			"Shape3D"
+		],
+		"inheritedBy": [],
+		"name": "ConcavePolygonShape3D"
+	},
+	"ConeTwistJoint3D": {
+		"inherits": [
+			"Joint3D"
+		],
+		"inheritedBy": [],
+		"name": "ConeTwistJoint3D"
+	},
+	"ConfigFile": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "ConfigFile"
+	},
+	"ConfirmationDialog": {
+		"inherits": [
+			"AcceptDialog"
+		],
+		"inheritedBy": [
+			"EditorCommandPalette",
+			"EditorFileDialog",
+			"FileDialog",
+			"ScriptCreateDialog"
+		],
+		"name": "ConfirmationDialog"
+	},
+	"Container": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [
+			"AspectRatioContainer",
+			"BoxContainer",
+			"CenterContainer",
+			"EditorProperty",
+			"FlowContainer",
+			"GraphNode",
+			"GridContainer",
+			"MarginContainer",
+			"PanelContainer",
+			"ScrollContainer",
+			"SplitContainer",
+			"SubViewportContainer",
+			"TabContainer"
+		],
+		"name": "Container"
+	},
+	"Control": {
+		"inherits": [
+			"CanvasItem"
+		],
+		"inheritedBy": [
+			"BaseButton",
+			"ColorRect",
+			"Container",
+			"GraphEdit",
+			"ItemList",
+			"Label",
+			"LineEdit",
+			"MenuBar",
+			"NinePatchRect",
+			"Panel",
+			"Range",
+			"ReferenceRect",
+			"RichTextLabel",
+			"Separator",
+			"TabBar",
+			"TextEdit",
+			"TextureRect",
+			"Tree",
+			"VideoStreamPlayer"
+		],
+		"name": "Control"
+	},
+	"ConvexPolygonShape2D": {
+		"inherits": [
+			"Shape2D"
+		],
+		"inheritedBy": [],
+		"name": "ConvexPolygonShape2D"
+	},
+	"ConvexPolygonShape3D": {
+		"inherits": [
+			"Shape3D"
+		],
+		"inheritedBy": [],
+		"name": "ConvexPolygonShape3D"
+	},
+	"Crypto": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "Crypto"
+	},
+	"CryptoKey": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "CryptoKey"
+	},
+	"Cubemap": {
+		"inherits": [
+			"ImageTextureLayered"
+		],
+		"inheritedBy": [],
+		"name": "Cubemap"
+	},
+	"CubemapArray": {
+		"inherits": [
+			"ImageTextureLayered"
+		],
+		"inheritedBy": [],
+		"name": "CubemapArray"
+	},
+	"Curve": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "Curve"
+	},
+	"Curve2D": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "Curve2D"
+	},
+	"Curve3D": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "Curve3D"
+	},
+	"CurveTexture": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "CurveTexture"
+	},
+	"CurveXYZTexture": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "CurveXYZTexture"
+	},
+	"CylinderMesh": {
+		"inherits": [
+			"PrimitiveMesh"
+		],
+		"inheritedBy": [],
+		"name": "CylinderMesh"
+	},
+	"CylinderShape3D": {
+		"inherits": [
+			"Shape3D"
+		],
+		"inheritedBy": [],
+		"name": "CylinderShape3D"
+	},
+	"DTLSServer": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "DTLSServer"
+	},
+	"DampedSpringJoint2D": {
+		"inherits": [
+			"Joint2D"
+		],
+		"inheritedBy": [],
+		"name": "DampedSpringJoint2D"
+	},
+	"Decal": {
+		"inherits": [
+			"VisualInstance3D"
+		],
+		"inheritedBy": [],
+		"name": "Decal"
+	},
+	"DirAccess": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "DirAccess"
+	},
+	"DirectionalLight2D": {
+		"inherits": [
+			"Light2D"
+		],
+		"inheritedBy": [],
+		"name": "DirectionalLight2D"
+	},
+	"DirectionalLight3D": {
+		"inherits": [
+			"Light3D"
+		],
+		"inheritedBy": [],
+		"name": "DirectionalLight3D"
+	},
+	"DisplayServer": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "DisplayServer"
+	},
+	"ENetConnection": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "ENetConnection"
+	},
+	"ENetMultiplayerPeer": {
+		"inherits": [
+			"MultiplayerPeer"
+		],
+		"inheritedBy": [],
+		"name": "ENetMultiplayerPeer"
+	},
+	"ENetPacketPeer": {
+		"inherits": [
+			"PacketPeer"
+		],
+		"inheritedBy": [],
+		"name": "ENetPacketPeer"
+	},
+	"EditorCommandPalette": {
+		"inherits": [
+			"ConfirmationDialog"
+		],
+		"inheritedBy": [],
+		"name": "EditorCommandPalette"
+	},
+	"EditorDebuggerPlugin": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EditorDebuggerPlugin"
+	},
+	"EditorDebuggerSession": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EditorDebuggerSession"
+	},
+	"EditorExportPlatform": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EditorExportPlatform"
+	},
+	"EditorExportPlugin": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EditorExportPlugin"
+	},
+	"EditorFeatureProfile": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EditorFeatureProfile"
+	},
+	"EditorFileDialog": {
+		"inherits": [
+			"ConfirmationDialog"
+		],
+		"inheritedBy": [],
+		"name": "EditorFileDialog"
+	},
+	"EditorFileSystem": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "EditorFileSystem"
+	},
+	"EditorFileSystemDirectory": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "EditorFileSystemDirectory"
+	},
+	"EditorFileSystemImportFormatSupportQuery": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EditorFileSystemImportFormatSupportQuery"
+	},
+	"EditorImportPlugin": {
+		"inherits": [
+			"ResourceImporter"
+		],
+		"inheritedBy": [],
+		"name": "EditorImportPlugin"
+	},
+	"EditorInspector": {
+		"inherits": [
+			"ScrollContainer"
+		],
+		"inheritedBy": [],
+		"name": "EditorInspector"
+	},
+	"EditorInspectorPlugin": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EditorInspectorPlugin"
+	},
+	"EditorInterface": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "EditorInterface"
+	},
+	"EditorNode3DGizmo": {
+		"inherits": [
+			"Node3DGizmo"
+		],
+		"inheritedBy": [],
+		"name": "EditorNode3DGizmo"
+	},
+	"EditorNode3DGizmoPlugin": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "EditorNode3DGizmoPlugin"
+	},
+	"EditorPaths": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "EditorPaths"
+	},
+	"EditorPlugin": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "EditorPlugin"
+	},
+	"EditorProperty": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [],
+		"name": "EditorProperty"
+	},
+	"EditorResourceConversionPlugin": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EditorResourceConversionPlugin"
+	},
+	"EditorResourcePicker": {
+		"inherits": [
+			"HBoxContainer"
+		],
+		"inheritedBy": [
+			"EditorScriptPicker"
+		],
+		"name": "EditorResourcePicker"
+	},
+	"EditorResourcePreview": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "EditorResourcePreview"
+	},
+	"EditorResourcePreviewGenerator": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EditorResourcePreviewGenerator"
+	},
+	"EditorSceneFormatImporter": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"EditorSceneFormatImporterBlend",
+			"EditorSceneFormatImporterFBX",
+			"EditorSceneFormatImporterGLTF"
+		],
+		"name": "EditorSceneFormatImporter"
+	},
+	"EditorSceneFormatImporterBlend": {
+		"inherits": [
+			"EditorSceneFormatImporter"
+		],
+		"inheritedBy": [],
+		"name": "EditorSceneFormatImporterBlend"
+	},
+	"EditorSceneFormatImporterFBX": {
+		"inherits": [
+			"EditorSceneFormatImporter"
+		],
+		"inheritedBy": [],
+		"name": "EditorSceneFormatImporterFBX"
+	},
+	"EditorSceneFormatImporterGLTF": {
+		"inherits": [
+			"EditorSceneFormatImporter"
+		],
+		"inheritedBy": [],
+		"name": "EditorSceneFormatImporterGLTF"
+	},
+	"EditorScenePostImport": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EditorScenePostImport"
+	},
+	"EditorScenePostImportPlugin": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EditorScenePostImportPlugin"
+	},
+	"EditorScript": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EditorScript"
+	},
+	"EditorScriptPicker": {
+		"inherits": [
+			"EditorResourcePicker"
+		],
+		"inheritedBy": [],
+		"name": "EditorScriptPicker"
+	},
+	"EditorSelection": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "EditorSelection"
+	},
+	"EditorSettings": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "EditorSettings"
+	},
+	"EditorSpinSlider": {
+		"inherits": [
+			"Range"
+		],
+		"inheritedBy": [],
+		"name": "EditorSpinSlider"
+	},
+	"EditorSyntaxHighlighter": {
+		"inherits": [
+			"SyntaxHighlighter"
+		],
+		"inheritedBy": [],
+		"name": "EditorSyntaxHighlighter"
+	},
+	"EditorTranslationParserPlugin": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"GDScriptEditorTranslationParserPlugin"
+		],
+		"name": "EditorTranslationParserPlugin"
+	},
+	"EditorUndoRedoManager": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "EditorUndoRedoManager"
+	},
+	"EditorVCSInterface": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "EditorVCSInterface"
+	},
+	"EncodedObjectAsID": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EncodedObjectAsID"
+	},
+	"Engine": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "Engine"
+	},
+	"EngineDebugger": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "EngineDebugger"
+	},
+	"EngineProfiler": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "EngineProfiler"
+	},
+	"Environment": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "Environment"
+	},
+	"Expression": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "Expression"
+	},
+	"FastNoiseLite": {
+		"inherits": [
+			"Noise"
+		],
+		"inheritedBy": [],
+		"name": "FastNoiseLite"
+	},
+	"FileAccess": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "FileAccess"
+	},
+	"FileDialog": {
+		"inherits": [
+			"ConfirmationDialog"
+		],
+		"inheritedBy": [],
+		"name": "FileDialog"
+	},
+	"FileSystemDock": {
+		"inherits": [
+			"VBoxContainer"
+		],
+		"inheritedBy": [],
+		"name": "FileSystemDock"
+	},
+	"FlowContainer": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [
+			"HFlowContainer",
+			"VFlowContainer"
+		],
+		"name": "FlowContainer"
+	},
+	"FogMaterial": {
+		"inherits": [
+			"Material"
+		],
+		"inheritedBy": [],
+		"name": "FogMaterial"
+	},
+	"FogVolume": {
+		"inherits": [
+			"VisualInstance3D"
+		],
+		"inheritedBy": [],
+		"name": "FogVolume"
+	},
+	"Font": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"FontFile",
+			"FontVariation",
+			"SystemFont"
+		],
+		"name": "Font"
+	},
+	"FontFile": {
+		"inherits": [
+			"Font"
+		],
+		"inheritedBy": [],
+		"name": "FontFile"
+	},
+	"FontVariation": {
+		"inherits": [
+			"Font"
+		],
+		"inheritedBy": [],
+		"name": "FontVariation"
+	},
+	"FramebufferCacheRD": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "FramebufferCacheRD"
+	},
+	"GDExtension": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GDExtension"
+	},
+	"GDExtensionManager": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "GDExtensionManager"
+	},
+	"GDScript": {
+		"inherits": [
+			"Script"
+		],
+		"inheritedBy": [],
+		"name": "GDScript"
+	},
+	"GDScriptEditorTranslationParserPlugin": {
+		"inherits": [
+			"EditorTranslationParserPlugin"
+		],
+		"inheritedBy": [],
+		"name": "GDScriptEditorTranslationParserPlugin"
+	},
+	"GDScriptNativeClass": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "GDScriptNativeClass"
+	},
+	"GLTFAccessor": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFAccessor"
+	},
+	"GLTFAnimation": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFAnimation"
+	},
+	"GLTFBufferView": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFBufferView"
+	},
+	"GLTFCamera": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFCamera"
+	},
+	"GLTFDocument": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFDocument"
+	},
+	"GLTFDocumentExtension": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"GLTFDocumentExtensionConvertImporterMesh"
+		],
+		"name": "GLTFDocumentExtension"
+	},
+	"GLTFDocumentExtensionConvertImporterMesh": {
+		"inherits": [
+			"GLTFDocumentExtension"
+		],
+		"inheritedBy": [],
+		"name": "GLTFDocumentExtensionConvertImporterMesh"
+	},
+	"GLTFLight": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFLight"
+	},
+	"GLTFMesh": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFMesh"
+	},
+	"GLTFNode": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFNode"
+	},
+	"GLTFSkeleton": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFSkeleton"
+	},
+	"GLTFSkin": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFSkin"
+	},
+	"GLTFSpecGloss": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFSpecGloss"
+	},
+	"GLTFState": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFState"
+	},
+	"GLTFTexture": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFTexture"
+	},
+	"GLTFTextureSampler": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "GLTFTextureSampler"
+	},
+	"GPUParticles2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "GPUParticles2D"
+	},
+	"GPUParticles3D": {
+		"inherits": [
+			"GeometryInstance3D"
+		],
+		"inheritedBy": [],
+		"name": "GPUParticles3D"
+	},
+	"GPUParticlesAttractor3D": {
+		"inherits": [
+			"VisualInstance3D"
+		],
+		"inheritedBy": [
+			"GPUParticlesAttractorBox3D",
+			"GPUParticlesAttractorSphere3D",
+			"GPUParticlesAttractorVectorField3D"
+		],
+		"name": "GPUParticlesAttractor3D"
+	},
+	"GPUParticlesAttractorBox3D": {
+		"inherits": [
+			"GPUParticlesAttractor3D"
+		],
+		"inheritedBy": [],
+		"name": "GPUParticlesAttractorBox3D"
+	},
+	"GPUParticlesAttractorSphere3D": {
+		"inherits": [
+			"GPUParticlesAttractor3D"
+		],
+		"inheritedBy": [],
+		"name": "GPUParticlesAttractorSphere3D"
+	},
+	"GPUParticlesAttractorVectorField3D": {
+		"inherits": [
+			"GPUParticlesAttractor3D"
+		],
+		"inheritedBy": [],
+		"name": "GPUParticlesAttractorVectorField3D"
+	},
+	"GPUParticlesCollision3D": {
+		"inherits": [
+			"VisualInstance3D"
+		],
+		"inheritedBy": [
+			"GPUParticlesCollisionBox3D",
+			"GPUParticlesCollisionHeightField3D",
+			"GPUParticlesCollisionSDF3D",
+			"GPUParticlesCollisionSphere3D"
+		],
+		"name": "GPUParticlesCollision3D"
+	},
+	"GPUParticlesCollisionBox3D": {
+		"inherits": [
+			"GPUParticlesCollision3D"
+		],
+		"inheritedBy": [],
+		"name": "GPUParticlesCollisionBox3D"
+	},
+	"GPUParticlesCollisionHeightField3D": {
+		"inherits": [
+			"GPUParticlesCollision3D"
+		],
+		"inheritedBy": [],
+		"name": "GPUParticlesCollisionHeightField3D"
+	},
+	"GPUParticlesCollisionSDF3D": {
+		"inherits": [
+			"GPUParticlesCollision3D"
+		],
+		"inheritedBy": [],
+		"name": "GPUParticlesCollisionSDF3D"
+	},
+	"GPUParticlesCollisionSphere3D": {
+		"inherits": [
+			"GPUParticlesCollision3D"
+		],
+		"inheritedBy": [],
+		"name": "GPUParticlesCollisionSphere3D"
+	},
+	"Generic6DOFJoint3D": {
+		"inherits": [
+			"Joint3D"
+		],
+		"inheritedBy": [],
+		"name": "Generic6DOFJoint3D"
+	},
+	"Geometry2D": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "Geometry2D"
+	},
+	"Geometry3D": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "Geometry3D"
+	},
+	"GeometryInstance3D": {
+		"inherits": [
+			"VisualInstance3D"
+		],
+		"inheritedBy": [
+			"CPUParticles3D",
+			"CSGShape3D",
+			"GPUParticles3D",
+			"Label3D",
+			"MeshInstance3D",
+			"MultiMeshInstance3D",
+			"SpriteBase3D"
+		],
+		"name": "GeometryInstance3D"
+	},
+	"GodotPhysicsServer2D": {
+		"inherits": [
+			"PhysicsServer2D"
+		],
+		"inheritedBy": [],
+		"name": "GodotPhysicsServer2D"
+	},
+	"GodotPhysicsServer3D": {
+		"inherits": [
+			"PhysicsServer3D"
+		],
+		"inheritedBy": [],
+		"name": "GodotPhysicsServer3D"
+	},
+	"Gradient": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "Gradient"
+	},
+	"GradientTexture1D": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "GradientTexture1D"
+	},
+	"GradientTexture2D": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "GradientTexture2D"
+	},
+	"GraphEdit": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "GraphEdit"
+	},
+	"GraphNode": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [],
+		"name": "GraphNode"
+	},
+	"GridContainer": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [],
+		"name": "GridContainer"
+	},
+	"GridMap": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "GridMap"
+	},
+	"GrooveJoint2D": {
+		"inherits": [
+			"Joint2D"
+		],
+		"inheritedBy": [],
+		"name": "GrooveJoint2D"
+	},
+	"HBoxContainer": {
+		"inherits": [
+			"BoxContainer"
+		],
+		"inheritedBy": [
+			"EditorResourcePicker"
+		],
+		"name": "HBoxContainer"
+	},
+	"HFlowContainer": {
+		"inherits": [
+			"FlowContainer"
+		],
+		"inheritedBy": [],
+		"name": "HFlowContainer"
+	},
+	"HMACContext": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "HMACContext"
+	},
+	"HScrollBar": {
+		"inherits": [
+			"ScrollBar"
+		],
+		"inheritedBy": [],
+		"name": "HScrollBar"
+	},
+	"HSeparator": {
+		"inherits": [
+			"Separator"
+		],
+		"inheritedBy": [],
+		"name": "HSeparator"
+	},
+	"HSlider": {
+		"inherits": [
+			"Slider"
+		],
+		"inheritedBy": [],
+		"name": "HSlider"
+	},
+	"HSplitContainer": {
+		"inherits": [
+			"SplitContainer"
+		],
+		"inheritedBy": [],
+		"name": "HSplitContainer"
+	},
+	"HTTPClient": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "HTTPClient"
+	},
+	"HTTPRequest": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "HTTPRequest"
+	},
+	"HashingContext": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "HashingContext"
+	},
+	"HeightMapShape3D": {
+		"inherits": [
+			"Shape3D"
+		],
+		"inheritedBy": [],
+		"name": "HeightMapShape3D"
+	},
+	"HingeJoint3D": {
+		"inherits": [
+			"Joint3D"
+		],
+		"inheritedBy": [],
+		"name": "HingeJoint3D"
+	},
+	"IP": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [
+			"IPUnix"
+		],
+		"name": "IP"
+	},
+	"IPUnix": {
+		"inherits": [
+			"IP"
+		],
+		"inheritedBy": [],
+		"name": "IPUnix"
+	},
+	"Image": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "Image"
+	},
+	"ImageFormatLoader": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"ImageFormatLoaderExtension"
+		],
+		"name": "ImageFormatLoader"
+	},
+	"ImageFormatLoaderExtension": {
+		"inherits": [
+			"ImageFormatLoader"
+		],
+		"inheritedBy": [],
+		"name": "ImageFormatLoaderExtension"
+	},
+	"ImageTexture": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "ImageTexture"
+	},
+	"ImageTexture3D": {
+		"inherits": [
+			"Texture3D"
+		],
+		"inheritedBy": [],
+		"name": "ImageTexture3D"
+	},
+	"ImageTextureLayered": {
+		"inherits": [
+			"TextureLayered"
+		],
+		"inheritedBy": [
+			"Cubemap",
+			"CubemapArray",
+			"Texture2DArray"
+		],
+		"name": "ImageTextureLayered"
+	},
+	"ImmediateMesh": {
+		"inherits": [
+			"Mesh"
+		],
+		"inheritedBy": [],
+		"name": "ImmediateMesh"
+	},
+	"ImporterMesh": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "ImporterMesh"
+	},
+	"ImporterMeshInstance3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "ImporterMeshInstance3D"
+	},
+	"Input": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "Input"
+	},
+	"InputEvent": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"InputEventAction",
+			"InputEventFromWindow",
+			"InputEventJoypadButton",
+			"InputEventJoypadMotion",
+			"InputEventMIDI",
+			"InputEventShortcut"
+		],
+		"name": "InputEvent"
+	},
+	"InputEventAction": {
+		"inherits": [
+			"InputEvent"
+		],
+		"inheritedBy": [],
+		"name": "InputEventAction"
+	},
+	"InputEventFromWindow": {
+		"inherits": [
+			"InputEvent"
+		],
+		"inheritedBy": [
+			"InputEventScreenDrag",
+			"InputEventScreenTouch",
+			"InputEventWithModifiers"
+		],
+		"name": "InputEventFromWindow"
+	},
+	"InputEventGesture": {
+		"inherits": [
+			"InputEventWithModifiers"
+		],
+		"inheritedBy": [
+			"InputEventMagnifyGesture",
+			"InputEventPanGesture"
+		],
+		"name": "InputEventGesture"
+	},
+	"InputEventJoypadButton": {
+		"inherits": [
+			"InputEvent"
+		],
+		"inheritedBy": [],
+		"name": "InputEventJoypadButton"
+	},
+	"InputEventJoypadMotion": {
+		"inherits": [
+			"InputEvent"
+		],
+		"inheritedBy": [],
+		"name": "InputEventJoypadMotion"
+	},
+	"InputEventKey": {
+		"inherits": [
+			"InputEventWithModifiers"
+		],
+		"inheritedBy": [],
+		"name": "InputEventKey"
+	},
+	"InputEventMIDI": {
+		"inherits": [
+			"InputEvent"
+		],
+		"inheritedBy": [],
+		"name": "InputEventMIDI"
+	},
+	"InputEventMagnifyGesture": {
+		"inherits": [
+			"InputEventGesture"
+		],
+		"inheritedBy": [],
+		"name": "InputEventMagnifyGesture"
+	},
+	"InputEventMouse": {
+		"inherits": [
+			"InputEventWithModifiers"
+		],
+		"inheritedBy": [
+			"InputEventMouseButton",
+			"InputEventMouseMotion"
+		],
+		"name": "InputEventMouse"
+	},
+	"InputEventMouseButton": {
+		"inherits": [
+			"InputEventMouse"
+		],
+		"inheritedBy": [],
+		"name": "InputEventMouseButton"
+	},
+	"InputEventMouseMotion": {
+		"inherits": [
+			"InputEventMouse"
+		],
+		"inheritedBy": [],
+		"name": "InputEventMouseMotion"
+	},
+	"InputEventPanGesture": {
+		"inherits": [
+			"InputEventGesture"
+		],
+		"inheritedBy": [],
+		"name": "InputEventPanGesture"
+	},
+	"InputEventScreenDrag": {
+		"inherits": [
+			"InputEventFromWindow"
+		],
+		"inheritedBy": [],
+		"name": "InputEventScreenDrag"
+	},
+	"InputEventScreenTouch": {
+		"inherits": [
+			"InputEventFromWindow"
+		],
+		"inheritedBy": [],
+		"name": "InputEventScreenTouch"
+	},
+	"InputEventShortcut": {
+		"inherits": [
+			"InputEvent"
+		],
+		"inheritedBy": [],
+		"name": "InputEventShortcut"
+	},
+	"InputEventWithModifiers": {
+		"inherits": [
+			"InputEventFromWindow"
+		],
+		"inheritedBy": [
+			"InputEventGesture",
+			"InputEventKey",
+			"InputEventMouse"
+		],
+		"name": "InputEventWithModifiers"
+	},
+	"InputMap": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "InputMap"
+	},
+	"InstancePlaceholder": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "InstancePlaceholder"
+	},
+	"IntervalTweener": {
+		"inherits": [
+			"Tweener"
+		],
+		"inheritedBy": [],
+		"name": "IntervalTweener"
+	},
+	"ItemList": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "ItemList"
+	},
+	"JNISingleton": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "JNISingleton"
+	},
+	"JSON": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "JSON"
+	},
+	"JSONRPC": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "JSONRPC"
+	},
+	"JavaClass": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "JavaClass"
+	},
+	"JavaClassWrapper": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "JavaClassWrapper"
+	},
+	"JavaScriptBridge": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "JavaScriptBridge"
+	},
+	"JavaScriptObject": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "JavaScriptObject"
+	},
+	"Joint2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [
+			"DampedSpringJoint2D",
+			"GrooveJoint2D",
+			"PinJoint2D"
+		],
+		"name": "Joint2D"
+	},
+	"Joint3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [
+			"ConeTwistJoint3D",
+			"Generic6DOFJoint3D",
+			"HingeJoint3D",
+			"PinJoint3D",
+			"SliderJoint3D"
+		],
+		"name": "Joint3D"
+	},
+	"KinematicCollision2D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "KinematicCollision2D"
+	},
+	"KinematicCollision3D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "KinematicCollision3D"
+	},
+	"Label": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "Label"
+	},
+	"Label3D": {
+		"inherits": [
+			"GeometryInstance3D"
+		],
+		"inheritedBy": [],
+		"name": "Label3D"
+	},
+	"LabelSettings": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "LabelSettings"
+	},
+	"Light2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [
+			"DirectionalLight2D",
+			"PointLight2D"
+		],
+		"name": "Light2D"
+	},
+	"Light3D": {
+		"inherits": [
+			"VisualInstance3D"
+		],
+		"inheritedBy": [
+			"DirectionalLight3D",
+			"OmniLight3D",
+			"SpotLight3D"
+		],
+		"name": "Light3D"
+	},
+	"LightOccluder2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "LightOccluder2D"
+	},
+	"LightmapGI": {
+		"inherits": [
+			"VisualInstance3D"
+		],
+		"inheritedBy": [],
+		"name": "LightmapGI"
+	},
+	"LightmapGIData": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "LightmapGIData"
+	},
+	"LightmapProbe": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "LightmapProbe"
+	},
+	"Lightmapper": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"LightmapperRD"
+		],
+		"name": "Lightmapper"
+	},
+	"LightmapperRD": {
+		"inherits": [
+			"Lightmapper"
+		],
+		"inheritedBy": [],
+		"name": "LightmapperRD"
+	},
+	"Line2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "Line2D"
+	},
+	"LineEdit": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "LineEdit"
+	},
+	"LinkButton": {
+		"inherits": [
+			"BaseButton"
+		],
+		"inheritedBy": [],
+		"name": "LinkButton"
+	},
+	"MainLoop": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [
+			"SceneTree"
+		],
+		"name": "MainLoop"
+	},
+	"MarginContainer": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [],
+		"name": "MarginContainer"
+	},
+	"Marker2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "Marker2D"
+	},
+	"Marker3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "Marker3D"
+	},
+	"Marshalls": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "Marshalls"
+	},
+	"Material": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"BaseMaterial3D",
+			"CanvasItemMaterial",
+			"FogMaterial",
+			"PanoramaSkyMaterial",
+			"ParticleProcessMaterial",
+			"PhysicalSkyMaterial",
+			"PlaceholderMaterial",
+			"ProceduralSkyMaterial",
+			"ShaderMaterial"
+		],
+		"name": "Material"
+	},
+	"MenuBar": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "MenuBar"
+	},
+	"MenuButton": {
+		"inherits": [
+			"Button"
+		],
+		"inheritedBy": [],
+		"name": "MenuButton"
+	},
+	"Mesh": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"ArrayMesh",
+			"ImmediateMesh",
+			"PlaceholderMesh",
+			"PrimitiveMesh"
+		],
+		"name": "Mesh"
+	},
+	"MeshDataTool": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "MeshDataTool"
+	},
+	"MeshInstance2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "MeshInstance2D"
+	},
+	"MeshInstance3D": {
+		"inherits": [
+			"GeometryInstance3D"
+		],
+		"inheritedBy": [
+			"SoftBody3D"
+		],
+		"name": "MeshInstance3D"
+	},
+	"MeshLibrary": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "MeshLibrary"
+	},
+	"MeshTexture": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "MeshTexture"
+	},
+	"MethodTweener": {
+		"inherits": [
+			"Tweener"
+		],
+		"inheritedBy": [],
+		"name": "MethodTweener"
+	},
+	"MissingNode": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "MissingNode"
+	},
+	"MissingResource": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "MissingResource"
+	},
+	"MobileVRInterface": {
+		"inherits": [
+			"XRInterface"
+		],
+		"inheritedBy": [],
+		"name": "MobileVRInterface"
+	},
+	"MovieWriter": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [
+			"MovieWriterMJPEG",
+			"MovieWriterPNGWAV"
+		],
+		"name": "MovieWriter"
+	},
+	"MovieWriterMJPEG": {
+		"inherits": [
+			"MovieWriter"
+		],
+		"inheritedBy": [],
+		"name": "MovieWriterMJPEG"
+	},
+	"MovieWriterPNGWAV": {
+		"inherits": [
+			"MovieWriter"
+		],
+		"inheritedBy": [],
+		"name": "MovieWriterPNGWAV"
+	},
+	"MultiMesh": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "MultiMesh"
+	},
+	"MultiMeshInstance2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "MultiMeshInstance2D"
+	},
+	"MultiMeshInstance3D": {
+		"inherits": [
+			"GeometryInstance3D"
+		],
+		"inheritedBy": [],
+		"name": "MultiMeshInstance3D"
+	},
+	"MultiplayerAPI": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"MultiplayerAPIExtension",
+			"SceneMultiplayer"
+		],
+		"name": "MultiplayerAPI"
+	},
+	"MultiplayerAPIExtension": {
+		"inherits": [
+			"MultiplayerAPI"
+		],
+		"inheritedBy": [],
+		"name": "MultiplayerAPIExtension"
+	},
+	"MultiplayerPeer": {
+		"inherits": [
+			"PacketPeer"
+		],
+		"inheritedBy": [
+			"ENetMultiplayerPeer",
+			"MultiplayerPeerExtension",
+			"OfflineMultiplayerPeer",
+			"WebRTCMultiplayerPeer",
+			"WebSocketMultiplayerPeer"
+		],
+		"name": "MultiplayerPeer"
+	},
+	"MultiplayerPeerExtension": {
+		"inherits": [
+			"MultiplayerPeer"
+		],
+		"inheritedBy": [],
+		"name": "MultiplayerPeerExtension"
+	},
+	"MultiplayerSpawner": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "MultiplayerSpawner"
+	},
+	"MultiplayerSynchronizer": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "MultiplayerSynchronizer"
+	},
+	"Mutex": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "Mutex"
+	},
+	"NavigationAgent2D": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "NavigationAgent2D"
+	},
+	"NavigationAgent3D": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "NavigationAgent3D"
+	},
+	"NavigationLink2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "NavigationLink2D"
+	},
+	"NavigationLink3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "NavigationLink3D"
+	},
+	"NavigationMesh": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "NavigationMesh"
+	},
+	"NavigationMeshGenerator": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "NavigationMeshGenerator"
+	},
+	"NavigationObstacle2D": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "NavigationObstacle2D"
+	},
+	"NavigationObstacle3D": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "NavigationObstacle3D"
+	},
+	"NavigationPathQueryParameters2D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "NavigationPathQueryParameters2D"
+	},
+	"NavigationPathQueryParameters3D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "NavigationPathQueryParameters3D"
+	},
+	"NavigationPathQueryResult2D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "NavigationPathQueryResult2D"
+	},
+	"NavigationPathQueryResult3D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "NavigationPathQueryResult3D"
+	},
+	"NavigationPolygon": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "NavigationPolygon"
+	},
+	"NavigationRegion2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "NavigationRegion2D"
+	},
+	"NavigationRegion3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "NavigationRegion3D"
+	},
+	"NavigationServer2D": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "NavigationServer2D"
+	},
+	"NavigationServer3D": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "NavigationServer3D"
+	},
+	"NinePatchRect": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "NinePatchRect"
+	},
+	"Node": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [
+			"AnimationPlayer",
+			"AnimationTree",
+			"AudioStreamPlayer",
+			"CanvasItem",
+			"CanvasLayer",
+			"EditorFileSystem",
+			"EditorInterface",
+			"EditorPlugin",
+			"EditorResourcePreview",
+			"HTTPRequest",
+			"InstancePlaceholder",
+			"MissingNode",
+			"MultiplayerSpawner",
+			"MultiplayerSynchronizer",
+			"NavigationAgent2D",
+			"NavigationAgent3D",
+			"NavigationObstacle2D",
+			"NavigationObstacle3D",
+			"Node3D",
+			"ResourcePreloader",
+			"ShaderGlobalsOverride",
+			"SkeletonIK3D",
+			"Timer",
+			"Viewport",
+			"WorldEnvironment"
+		],
+		"name": "Node"
+	},
+	"Node2D": {
+		"inherits": [
+			"CanvasItem"
+		],
+		"inheritedBy": [
+			"AnimatedSprite2D",
+			"AudioListener2D",
+			"AudioStreamPlayer2D",
+			"BackBufferCopy",
+			"Bone2D",
+			"CPUParticles2D",
+			"Camera2D",
+			"CanvasGroup",
+			"CanvasModulate",
+			"CollisionObject2D",
+			"CollisionPolygon2D",
+			"CollisionShape2D",
+			"GPUParticles2D",
+			"Joint2D",
+			"Light2D",
+			"LightOccluder2D",
+			"Line2D",
+			"Marker2D",
+			"MeshInstance2D",
+			"MultiMeshInstance2D",
+			"NavigationLink2D",
+			"NavigationRegion2D",
+			"ParallaxLayer",
+			"Path2D",
+			"PathFollow2D",
+			"Polygon2D",
+			"RayCast2D",
+			"RemoteTransform2D",
+			"ShapeCast2D",
+			"Skeleton2D",
+			"Sprite2D",
+			"TileMap",
+			"TouchScreenButton",
+			"VisibleOnScreenNotifier2D"
+		],
+		"name": "Node2D"
+	},
+	"Node3D": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [
+			"AudioListener3D",
+			"AudioStreamPlayer3D",
+			"BoneAttachment3D",
+			"Camera3D",
+			"CollisionObject3D",
+			"CollisionPolygon3D",
+			"CollisionShape3D",
+			"GridMap",
+			"ImporterMeshInstance3D",
+			"Joint3D",
+			"LightmapProbe",
+			"Marker3D",
+			"NavigationLink3D",
+			"NavigationRegion3D",
+			"OccluderInstance3D",
+			"OpenXRHand",
+			"Path3D",
+			"PathFollow3D",
+			"RayCast3D",
+			"RemoteTransform3D",
+			"ShapeCast3D",
+			"Skeleton3D",
+			"SpringArm3D",
+			"VehicleWheel3D",
+			"VisualInstance3D",
+			"XRNode3D",
+			"XROrigin3D"
+		],
+		"name": "Node3D"
+	},
+	"Node3DGizmo": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"EditorNode3DGizmo"
+		],
+		"name": "Node3DGizmo"
+	},
+	"Noise": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"FastNoiseLite"
+		],
+		"name": "Noise"
+	},
+	"NoiseTexture2D": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "NoiseTexture2D"
+	},
+	"ORMMaterial3D": {
+		"inherits": [
+			"BaseMaterial3D"
+		],
+		"inheritedBy": [],
+		"name": "ORMMaterial3D"
+	},
+	"OS": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "OS"
+	},
+	"Object": {
+		"inherits": [],
+		"inheritedBy": [
+			"AudioServer",
+			"CameraServer",
+			"ClassDB",
+			"DisplayServer",
+			"EditorFileSystemDirectory",
+			"EditorPaths",
+			"EditorSelection",
+			"EditorUndoRedoManager",
+			"EditorVCSInterface",
+			"Engine",
+			"EngineDebugger",
+			"FramebufferCacheRD",
+			"GDExtensionManager",
+			"Geometry2D",
+			"Geometry3D",
+			"IP",
+			"Input",
+			"InputMap",
+			"JNISingleton",
+			"JSONRPC",
+			"JavaClassWrapper",
+			"JavaScriptBridge",
+			"MainLoop",
+			"Marshalls",
+			"MovieWriter",
+			"NavigationMeshGenerator",
+			"NavigationServer2D",
+			"NavigationServer3D",
+			"Node",
+			"OS",
+			"Performance",
+			"PhysicsDirectBodyState2D",
+			"PhysicsDirectBodyState3D",
+			"PhysicsDirectSpaceState2D",
+			"PhysicsDirectSpaceState3D",
+			"PhysicsServer2D",
+			"PhysicsServer2DManager",
+			"PhysicsServer3D",
+			"PhysicsServer3DManager",
+			"PhysicsServer3DRenderingServerHandler",
+			"ProjectSettings",
+			"RefCounted",
+			"RenderingDevice",
+			"RenderingServer",
+			"ResourceLoader",
+			"ResourceSaver",
+			"ResourceUID",
+			"ScriptLanguage",
+			"TextServerManager",
+			"ThemeDB",
+			"TileData",
+			"Time",
+			"TranslationServer",
+			"TreeItem",
+			"UndoRedo",
+			"UniformSetCacheRD",
+			"WorkerThreadPool",
+			"XRServer"
+		],
+		"name": "Object"
+	},
+	"Occluder3D": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"ArrayOccluder3D",
+			"BoxOccluder3D",
+			"PolygonOccluder3D",
+			"QuadOccluder3D",
+			"SphereOccluder3D"
+		],
+		"name": "Occluder3D"
+	},
+	"OccluderInstance3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "OccluderInstance3D"
+	},
+	"OccluderPolygon2D": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "OccluderPolygon2D"
+	},
+	"OfflineMultiplayerPeer": {
+		"inherits": [
+			"MultiplayerPeer"
+		],
+		"inheritedBy": [],
+		"name": "OfflineMultiplayerPeer"
+	},
+	"OggPacketSequence": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "OggPacketSequence"
+	},
+	"OggPacketSequencePlayback": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "OggPacketSequencePlayback"
+	},
+	"OmniLight3D": {
+		"inherits": [
+			"Light3D"
+		],
+		"inheritedBy": [],
+		"name": "OmniLight3D"
+	},
+	"OpenXRAction": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "OpenXRAction"
+	},
+	"OpenXRActionMap": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "OpenXRActionMap"
+	},
+	"OpenXRActionSet": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "OpenXRActionSet"
+	},
+	"OpenXRHand": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "OpenXRHand"
+	},
+	"OpenXRIPBinding": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "OpenXRIPBinding"
+	},
+	"OpenXRInteractionProfile": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "OpenXRInteractionProfile"
+	},
+	"OpenXRInterface": {
+		"inherits": [
+			"XRInterface"
+		],
+		"inheritedBy": [],
+		"name": "OpenXRInterface"
+	},
+	"OptimizedTranslation": {
+		"inherits": [
+			"Translation"
+		],
+		"inheritedBy": [],
+		"name": "OptimizedTranslation"
+	},
+	"OptionButton": {
+		"inherits": [
+			"Button"
+		],
+		"inheritedBy": [],
+		"name": "OptionButton"
+	},
+	"PCKPacker": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "PCKPacker"
+	},
+	"PackedDataContainer": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "PackedDataContainer"
+	},
+	"PackedDataContainerRef": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "PackedDataContainerRef"
+	},
+	"PackedScene": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "PackedScene"
+	},
+	"PacketPeer": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"ENetPacketPeer",
+			"MultiplayerPeer",
+			"PacketPeerDTLS",
+			"PacketPeerExtension",
+			"PacketPeerStream",
+			"PacketPeerUDP",
+			"WebRTCDataChannel",
+			"WebSocketPeer"
+		],
+		"name": "PacketPeer"
+	},
+	"PacketPeerDTLS": {
+		"inherits": [
+			"PacketPeer"
+		],
+		"inheritedBy": [],
+		"name": "PacketPeerDTLS"
+	},
+	"PacketPeerExtension": {
+		"inherits": [
+			"PacketPeer"
+		],
+		"inheritedBy": [],
+		"name": "PacketPeerExtension"
+	},
+	"PacketPeerStream": {
+		"inherits": [
+			"PacketPeer"
+		],
+		"inheritedBy": [],
+		"name": "PacketPeerStream"
+	},
+	"PacketPeerUDP": {
+		"inherits": [
+			"PacketPeer"
+		],
+		"inheritedBy": [],
+		"name": "PacketPeerUDP"
+	},
+	"Panel": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "Panel"
+	},
+	"PanelContainer": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [
+			"ScriptEditor"
+		],
+		"name": "PanelContainer"
+	},
+	"PanoramaSkyMaterial": {
+		"inherits": [
+			"Material"
+		],
+		"inheritedBy": [],
+		"name": "PanoramaSkyMaterial"
+	},
+	"ParallaxBackground": {
+		"inherits": [
+			"CanvasLayer"
+		],
+		"inheritedBy": [],
+		"name": "ParallaxBackground"
+	},
+	"ParallaxLayer": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "ParallaxLayer"
+	},
+	"ParticleProcessMaterial": {
+		"inherits": [
+			"Material"
+		],
+		"inheritedBy": [],
+		"name": "ParticleProcessMaterial"
+	},
+	"Path2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "Path2D"
+	},
+	"Path3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "Path3D"
+	},
+	"PathFollow2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "PathFollow2D"
+	},
+	"PathFollow3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "PathFollow3D"
+	},
+	"Performance": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "Performance"
+	},
+	"PhysicalBone2D": {
+		"inherits": [
+			"RigidBody2D"
+		],
+		"inheritedBy": [],
+		"name": "PhysicalBone2D"
+	},
+	"PhysicalBone3D": {
+		"inherits": [
+			"PhysicsBody3D"
+		],
+		"inheritedBy": [],
+		"name": "PhysicalBone3D"
+	},
+	"PhysicalSkyMaterial": {
+		"inherits": [
+			"Material"
+		],
+		"inheritedBy": [],
+		"name": "PhysicalSkyMaterial"
+	},
+	"PhysicsBody2D": {
+		"inherits": [
+			"CollisionObject2D"
+		],
+		"inheritedBy": [
+			"CharacterBody2D",
+			"RigidBody2D",
+			"StaticBody2D"
+		],
+		"name": "PhysicsBody2D"
+	},
+	"PhysicsBody3D": {
+		"inherits": [
+			"CollisionObject3D"
+		],
+		"inheritedBy": [
+			"CharacterBody3D",
+			"PhysicalBone3D",
+			"RigidBody3D",
+			"StaticBody3D"
+		],
+		"name": "PhysicsBody3D"
+	},
+	"PhysicsDirectBodyState2D": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [
+			"PhysicsDirectBodyState2DExtension"
+		],
+		"name": "PhysicsDirectBodyState2D"
+	},
+	"PhysicsDirectBodyState2DExtension": {
+		"inherits": [
+			"PhysicsDirectBodyState2D"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsDirectBodyState2DExtension"
+	},
+	"PhysicsDirectBodyState3D": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [
+			"PhysicsDirectBodyState3DExtension"
+		],
+		"name": "PhysicsDirectBodyState3D"
+	},
+	"PhysicsDirectBodyState3DExtension": {
+		"inherits": [
+			"PhysicsDirectBodyState3D"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsDirectBodyState3DExtension"
+	},
+	"PhysicsDirectSpaceState2D": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [
+			"PhysicsDirectSpaceState2DExtension"
+		],
+		"name": "PhysicsDirectSpaceState2D"
+	},
+	"PhysicsDirectSpaceState2DExtension": {
+		"inherits": [
+			"PhysicsDirectSpaceState2D"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsDirectSpaceState2DExtension"
+	},
+	"PhysicsDirectSpaceState3D": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [
+			"PhysicsDirectSpaceState3DExtension"
+		],
+		"name": "PhysicsDirectSpaceState3D"
+	},
+	"PhysicsDirectSpaceState3DExtension": {
+		"inherits": [
+			"PhysicsDirectSpaceState3D"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsDirectSpaceState3DExtension"
+	},
+	"PhysicsMaterial": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsMaterial"
+	},
+	"PhysicsPointQueryParameters2D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsPointQueryParameters2D"
+	},
+	"PhysicsPointQueryParameters3D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsPointQueryParameters3D"
+	},
+	"PhysicsRayQueryParameters2D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsRayQueryParameters2D"
+	},
+	"PhysicsRayQueryParameters3D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsRayQueryParameters3D"
+	},
+	"PhysicsServer2D": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [
+			"GodotPhysicsServer2D",
+			"PhysicsServer2DExtension"
+		],
+		"name": "PhysicsServer2D"
+	},
+	"PhysicsServer2DExtension": {
+		"inherits": [
+			"PhysicsServer2D"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsServer2DExtension"
+	},
+	"PhysicsServer2DManager": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsServer2DManager"
+	},
+	"PhysicsServer3D": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [
+			"GodotPhysicsServer3D",
+			"PhysicsServer3DExtension"
+		],
+		"name": "PhysicsServer3D"
+	},
+	"PhysicsServer3DExtension": {
+		"inherits": [
+			"PhysicsServer3D"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsServer3DExtension"
+	},
+	"PhysicsServer3DManager": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsServer3DManager"
+	},
+	"PhysicsServer3DRenderingServerHandler": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsServer3DRenderingServerHandler"
+	},
+	"PhysicsShapeQueryParameters2D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsShapeQueryParameters2D"
+	},
+	"PhysicsShapeQueryParameters3D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsShapeQueryParameters3D"
+	},
+	"PhysicsTestMotionParameters2D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsTestMotionParameters2D"
+	},
+	"PhysicsTestMotionParameters3D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsTestMotionParameters3D"
+	},
+	"PhysicsTestMotionResult2D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsTestMotionResult2D"
+	},
+	"PhysicsTestMotionResult3D": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "PhysicsTestMotionResult3D"
+	},
+	"PinJoint2D": {
+		"inherits": [
+			"Joint2D"
+		],
+		"inheritedBy": [],
+		"name": "PinJoint2D"
+	},
+	"PinJoint3D": {
+		"inherits": [
+			"Joint3D"
+		],
+		"inheritedBy": [],
+		"name": "PinJoint3D"
+	},
+	"PlaceholderCubemap": {
+		"inherits": [
+			"PlaceholderTextureLayered"
+		],
+		"inheritedBy": [],
+		"name": "PlaceholderCubemap"
+	},
+	"PlaceholderCubemapArray": {
+		"inherits": [
+			"PlaceholderTextureLayered"
+		],
+		"inheritedBy": [],
+		"name": "PlaceholderCubemapArray"
+	},
+	"PlaceholderMaterial": {
+		"inherits": [
+			"Material"
+		],
+		"inheritedBy": [],
+		"name": "PlaceholderMaterial"
+	},
+	"PlaceholderMesh": {
+		"inherits": [
+			"Mesh"
+		],
+		"inheritedBy": [],
+		"name": "PlaceholderMesh"
+	},
+	"PlaceholderTexture2D": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "PlaceholderTexture2D"
+	},
+	"PlaceholderTexture2DArray": {
+		"inherits": [
+			"PlaceholderTextureLayered"
+		],
+		"inheritedBy": [],
+		"name": "PlaceholderTexture2DArray"
+	},
+	"PlaceholderTexture3D": {
+		"inherits": [
+			"Texture3D"
+		],
+		"inheritedBy": [],
+		"name": "PlaceholderTexture3D"
+	},
+	"PlaceholderTextureLayered": {
+		"inherits": [
+			"TextureLayered"
+		],
+		"inheritedBy": [
+			"PlaceholderCubemap",
+			"PlaceholderCubemapArray",
+			"PlaceholderTexture2DArray"
+		],
+		"name": "PlaceholderTextureLayered"
+	},
+	"PlaneMesh": {
+		"inherits": [
+			"PrimitiveMesh"
+		],
+		"inheritedBy": [
+			"QuadMesh"
+		],
+		"name": "PlaneMesh"
+	},
+	"PointLight2D": {
+		"inherits": [
+			"Light2D"
+		],
+		"inheritedBy": [],
+		"name": "PointLight2D"
+	},
+	"PointMesh": {
+		"inherits": [
+			"PrimitiveMesh"
+		],
+		"inheritedBy": [],
+		"name": "PointMesh"
+	},
+	"Polygon2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "Polygon2D"
+	},
+	"PolygonOccluder3D": {
+		"inherits": [
+			"Occluder3D"
+		],
+		"inheritedBy": [],
+		"name": "PolygonOccluder3D"
+	},
+	"PolygonPathFinder": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "PolygonPathFinder"
+	},
+	"Popup": {
+		"inherits": [
+			"Window"
+		],
+		"inheritedBy": [
+			"PopupMenu",
+			"PopupPanel"
+		],
+		"name": "Popup"
+	},
+	"PopupMenu": {
+		"inherits": [
+			"Popup"
+		],
+		"inheritedBy": [],
+		"name": "PopupMenu"
+	},
+	"PopupPanel": {
+		"inherits": [
+			"Popup"
+		],
+		"inheritedBy": [],
+		"name": "PopupPanel"
+	},
+	"PortableCompressedTexture2D": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "PortableCompressedTexture2D"
+	},
+	"PrimitiveMesh": {
+		"inherits": [
+			"Mesh"
+		],
+		"inheritedBy": [
+			"BoxMesh",
+			"CapsuleMesh",
+			"CylinderMesh",
+			"PlaneMesh",
+			"PointMesh",
+			"PrismMesh",
+			"RibbonTrailMesh",
+			"SphereMesh",
+			"TextMesh",
+			"TorusMesh",
+			"TubeTrailMesh"
+		],
+		"name": "PrimitiveMesh"
+	},
+	"PrismMesh": {
+		"inherits": [
+			"PrimitiveMesh"
+		],
+		"inheritedBy": [],
+		"name": "PrismMesh"
+	},
+	"ProceduralSkyMaterial": {
+		"inherits": [
+			"Material"
+		],
+		"inheritedBy": [],
+		"name": "ProceduralSkyMaterial"
+	},
+	"ProgressBar": {
+		"inherits": [
+			"Range"
+		],
+		"inheritedBy": [],
+		"name": "ProgressBar"
+	},
+	"ProjectSettings": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "ProjectSettings"
+	},
+	"PropertyTweener": {
+		"inherits": [
+			"Tweener"
+		],
+		"inheritedBy": [],
+		"name": "PropertyTweener"
+	},
+	"QuadMesh": {
+		"inherits": [
+			"PlaneMesh"
+		],
+		"inheritedBy": [],
+		"name": "QuadMesh"
+	},
+	"QuadOccluder3D": {
+		"inherits": [
+			"Occluder3D"
+		],
+		"inheritedBy": [],
+		"name": "QuadOccluder3D"
+	},
+	"RDAttachmentFormat": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDAttachmentFormat"
+	},
+	"RDFramebufferPass": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDFramebufferPass"
+	},
+	"RDPipelineColorBlendState": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDPipelineColorBlendState"
+	},
+	"RDPipelineColorBlendStateAttachment": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDPipelineColorBlendStateAttachment"
+	},
+	"RDPipelineDepthStencilState": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDPipelineDepthStencilState"
+	},
+	"RDPipelineMultisampleState": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDPipelineMultisampleState"
+	},
+	"RDPipelineRasterizationState": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDPipelineRasterizationState"
+	},
+	"RDPipelineSpecializationConstant": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDPipelineSpecializationConstant"
+	},
+	"RDSamplerState": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDSamplerState"
+	},
+	"RDShaderFile": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "RDShaderFile"
+	},
+	"RDShaderSPIRV": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "RDShaderSPIRV"
+	},
+	"RDShaderSource": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDShaderSource"
+	},
+	"RDTextureFormat": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDTextureFormat"
+	},
+	"RDTextureView": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDTextureView"
+	},
+	"RDUniform": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDUniform"
+	},
+	"RDVertexAttribute": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RDVertexAttribute"
+	},
+	"RandomNumberGenerator": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RandomNumberGenerator"
+	},
+	"Range": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [
+			"EditorSpinSlider",
+			"ProgressBar",
+			"ScrollBar",
+			"Slider",
+			"SpinBox",
+			"TextureProgressBar"
+		],
+		"name": "Range"
+	},
+	"RayCast2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "RayCast2D"
+	},
+	"RayCast3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "RayCast3D"
+	},
+	"RectangleShape2D": {
+		"inherits": [
+			"Shape2D"
+		],
+		"inheritedBy": [],
+		"name": "RectangleShape2D"
+	},
+	"RefCounted": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [
+			"AESContext",
+			"AStar2D",
+			"AStar3D",
+			"AStarGrid2D",
+			"AnimationTrackEditPlugin",
+			"AudioEffectInstance",
+			"AudioStreamPlayback",
+			"CameraFeed",
+			"CharFXTransform",
+			"ConfigFile",
+			"Crypto",
+			"DTLSServer",
+			"DirAccess",
+			"ENetConnection",
+			"EditorDebuggerPlugin",
+			"EditorDebuggerSession",
+			"EditorExportPlatform",
+			"EditorExportPlugin",
+			"EditorFeatureProfile",
+			"EditorFileSystemImportFormatSupportQuery",
+			"EditorInspectorPlugin",
+			"EditorResourceConversionPlugin",
+			"EditorResourcePreviewGenerator",
+			"EditorSceneFormatImporter",
+			"EditorScenePostImport",
+			"EditorScenePostImportPlugin",
+			"EditorScript",
+			"EditorTranslationParserPlugin",
+			"EncodedObjectAsID",
+			"EngineProfiler",
+			"Expression",
+			"FileAccess",
+			"GDScriptNativeClass",
+			"HMACContext",
+			"HTTPClient",
+			"HashingContext",
+			"ImageFormatLoader",
+			"JavaClass",
+			"JavaScriptObject",
+			"KinematicCollision2D",
+			"KinematicCollision3D",
+			"Lightmapper",
+			"MeshDataTool",
+			"MultiplayerAPI",
+			"Mutex",
+			"NavigationPathQueryParameters2D",
+			"NavigationPathQueryParameters3D",
+			"NavigationPathQueryResult2D",
+			"NavigationPathQueryResult3D",
+			"Node3DGizmo",
+			"OggPacketSequencePlayback",
+			"PCKPacker",
+			"PackedDataContainerRef",
+			"PacketPeer",
+			"PhysicsPointQueryParameters2D",
+			"PhysicsPointQueryParameters3D",
+			"PhysicsRayQueryParameters2D",
+			"PhysicsRayQueryParameters3D",
+			"PhysicsShapeQueryParameters2D",
+			"PhysicsShapeQueryParameters3D",
+			"PhysicsTestMotionParameters2D",
+			"PhysicsTestMotionParameters3D",
+			"PhysicsTestMotionResult2D",
+			"PhysicsTestMotionResult3D",
+			"RDAttachmentFormat",
+			"RDFramebufferPass",
+			"RDPipelineColorBlendState",
+			"RDPipelineColorBlendStateAttachment",
+			"RDPipelineDepthStencilState",
+			"RDPipelineMultisampleState",
+			"RDPipelineRasterizationState",
+			"RDPipelineSpecializationConstant",
+			"RDSamplerState",
+			"RDShaderSource",
+			"RDTextureFormat",
+			"RDTextureView",
+			"RDUniform",
+			"RDVertexAttribute",
+			"RandomNumberGenerator",
+			"RegEx",
+			"RegExMatch",
+			"Resource",
+			"ResourceFormatLoader",
+			"ResourceFormatSaver",
+			"ResourceImporter",
+			"SceneState",
+			"SceneTreeTimer",
+			"Semaphore",
+			"SkinReference",
+			"StreamPeer",
+			"SurfaceTool",
+			"TCPServer",
+			"TLSOptions",
+			"TextLine",
+			"TextParagraph",
+			"TextServer",
+			"Thread",
+			"TriangleMesh",
+			"Tween",
+			"Tweener",
+			"UDPServer",
+			"UPNP",
+			"UPNPDevice",
+			"WeakRef",
+			"WebRTCPeerConnection",
+			"XMLParser",
+			"XRInterface",
+			"XRPose",
+			"XRPositionalTracker",
+			"ZIPPacker",
+			"ZIPReader"
+		],
+		"name": "RefCounted"
+	},
+	"ReferenceRect": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "ReferenceRect"
+	},
+	"ReflectionProbe": {
+		"inherits": [
+			"VisualInstance3D"
+		],
+		"inheritedBy": [],
+		"name": "ReflectionProbe"
+	},
+	"RegEx": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RegEx"
+	},
+	"RegExMatch": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "RegExMatch"
+	},
+	"RemoteTransform2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "RemoteTransform2D"
+	},
+	"RemoteTransform3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "RemoteTransform3D"
+	},
+	"RenderingDevice": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "RenderingDevice"
+	},
+	"RenderingServer": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "RenderingServer"
+	},
+	"Resource": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"Animation",
+			"AnimationLibrary",
+			"AnimationNode",
+			"AnimationNodeStateMachinePlayback",
+			"AnimationNodeStateMachineTransition",
+			"AudioBusLayout",
+			"AudioEffect",
+			"AudioStream",
+			"BitMap",
+			"BoneMap",
+			"ButtonGroup",
+			"CameraAttributes",
+			"CryptoKey",
+			"Curve",
+			"Curve2D",
+			"Curve3D",
+			"EditorNode3DGizmoPlugin",
+			"EditorSettings",
+			"Environment",
+			"Font",
+			"GDExtension",
+			"GLTFAccessor",
+			"GLTFAnimation",
+			"GLTFBufferView",
+			"GLTFCamera",
+			"GLTFDocument",
+			"GLTFDocumentExtension",
+			"GLTFLight",
+			"GLTFMesh",
+			"GLTFNode",
+			"GLTFSkeleton",
+			"GLTFSkin",
+			"GLTFSpecGloss",
+			"GLTFState",
+			"GLTFTexture",
+			"GLTFTextureSampler",
+			"Gradient",
+			"Image",
+			"ImporterMesh",
+			"InputEvent",
+			"JSON",
+			"LabelSettings",
+			"LightmapGIData",
+			"Material",
+			"Mesh",
+			"MeshLibrary",
+			"MissingResource",
+			"MultiMesh",
+			"NavigationMesh",
+			"NavigationPolygon",
+			"Noise",
+			"Occluder3D",
+			"OccluderPolygon2D",
+			"OggPacketSequence",
+			"OpenXRAction",
+			"OpenXRActionMap",
+			"OpenXRActionSet",
+			"OpenXRIPBinding",
+			"OpenXRInteractionProfile",
+			"PackedDataContainer",
+			"PackedScene",
+			"PhysicsMaterial",
+			"PolygonPathFinder",
+			"RDShaderFile",
+			"RDShaderSPIRV",
+			"RichTextEffect",
+			"SceneReplicationConfig",
+			"Script",
+			"Shader",
+			"ShaderInclude",
+			"Shape2D",
+			"Shape3D",
+			"Shortcut",
+			"SkeletonModification2D",
+			"SkeletonModificationStack2D",
+			"SkeletonProfile",
+			"Skin",
+			"Sky",
+			"SpriteFrames",
+			"StyleBox",
+			"SyntaxHighlighter",
+			"Texture",
+			"Theme",
+			"TileMapPattern",
+			"TileSet",
+			"TileSetSource",
+			"Translation",
+			"VideoStream",
+			"VideoStreamPlayback",
+			"VisualShaderNode",
+			"VoxelGIData",
+			"World2D",
+			"World3D",
+			"X509Certificate"
+		],
+		"name": "Resource"
+	},
+	"ResourceFormatImporterSaver": {
+		"inherits": [
+			"ResourceFormatSaver"
+		],
+		"inheritedBy": [],
+		"name": "ResourceFormatImporterSaver"
+	},
+	"ResourceFormatLoader": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "ResourceFormatLoader"
+	},
+	"ResourceFormatSaver": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"ResourceFormatImporterSaver"
+		],
+		"name": "ResourceFormatSaver"
+	},
+	"ResourceImporter": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"EditorImportPlugin"
+		],
+		"name": "ResourceImporter"
+	},
+	"ResourceLoader": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "ResourceLoader"
+	},
+	"ResourcePreloader": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "ResourcePreloader"
+	},
+	"ResourceSaver": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "ResourceSaver"
+	},
+	"ResourceUID": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "ResourceUID"
+	},
+	"RibbonTrailMesh": {
+		"inherits": [
+			"PrimitiveMesh"
+		],
+		"inheritedBy": [],
+		"name": "RibbonTrailMesh"
+	},
+	"RichTextEffect": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "RichTextEffect"
+	},
+	"RichTextLabel": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "RichTextLabel"
+	},
+	"RigidBody2D": {
+		"inherits": [
+			"PhysicsBody2D"
+		],
+		"inheritedBy": [
+			"PhysicalBone2D"
+		],
+		"name": "RigidBody2D"
+	},
+	"RigidBody3D": {
+		"inherits": [
+			"PhysicsBody3D"
+		],
+		"inheritedBy": [
+			"VehicleBody3D"
+		],
+		"name": "RigidBody3D"
+	},
+	"RootMotionView": {
+		"inherits": [
+			"VisualInstance3D"
+		],
+		"inheritedBy": [],
+		"name": "RootMotionView"
+	},
+	"SceneMultiplayer": {
+		"inherits": [
+			"MultiplayerAPI"
+		],
+		"inheritedBy": [],
+		"name": "SceneMultiplayer"
+	},
+	"SceneReplicationConfig": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "SceneReplicationConfig"
+	},
+	"SceneState": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "SceneState"
+	},
+	"SceneTree": {
+		"inherits": [
+			"MainLoop"
+		],
+		"inheritedBy": [],
+		"name": "SceneTree"
+	},
+	"SceneTreeTimer": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "SceneTreeTimer"
+	},
+	"Script": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"GDScript",
+			"ScriptExtension"
+		],
+		"name": "Script"
+	},
+	"ScriptCreateDialog": {
+		"inherits": [
+			"ConfirmationDialog"
+		],
+		"inheritedBy": [],
+		"name": "ScriptCreateDialog"
+	},
+	"ScriptEditor": {
+		"inherits": [
+			"PanelContainer"
+		],
+		"inheritedBy": [],
+		"name": "ScriptEditor"
+	},
+	"ScriptEditorBase": {
+		"inherits": [
+			"VBoxContainer"
+		],
+		"inheritedBy": [],
+		"name": "ScriptEditorBase"
+	},
+	"ScriptExtension": {
+		"inherits": [
+			"Script"
+		],
+		"inheritedBy": [],
+		"name": "ScriptExtension"
+	},
+	"ScriptLanguage": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [
+			"ScriptLanguageExtension"
+		],
+		"name": "ScriptLanguage"
+	},
+	"ScriptLanguageExtension": {
+		"inherits": [
+			"ScriptLanguage"
+		],
+		"inheritedBy": [],
+		"name": "ScriptLanguageExtension"
+	},
+	"ScrollBar": {
+		"inherits": [
+			"Range"
+		],
+		"inheritedBy": [
+			"HScrollBar",
+			"VScrollBar"
+		],
+		"name": "ScrollBar"
+	},
+	"ScrollContainer": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [
+			"EditorInspector"
+		],
+		"name": "ScrollContainer"
+	},
+	"SegmentShape2D": {
+		"inherits": [
+			"Shape2D"
+		],
+		"inheritedBy": [],
+		"name": "SegmentShape2D"
+	},
+	"Semaphore": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "Semaphore"
+	},
+	"SeparationRayShape2D": {
+		"inherits": [
+			"Shape2D"
+		],
+		"inheritedBy": [],
+		"name": "SeparationRayShape2D"
+	},
+	"SeparationRayShape3D": {
+		"inherits": [
+			"Shape3D"
+		],
+		"inheritedBy": [],
+		"name": "SeparationRayShape3D"
+	},
+	"Separator": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [
+			"HSeparator",
+			"VSeparator"
+		],
+		"name": "Separator"
+	},
+	"Shader": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"VisualShader"
+		],
+		"name": "Shader"
+	},
+	"ShaderGlobalsOverride": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "ShaderGlobalsOverride"
+	},
+	"ShaderInclude": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "ShaderInclude"
+	},
+	"ShaderMaterial": {
+		"inherits": [
+			"Material"
+		],
+		"inheritedBy": [],
+		"name": "ShaderMaterial"
+	},
+	"Shape2D": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"CapsuleShape2D",
+			"CircleShape2D",
+			"ConcavePolygonShape2D",
+			"ConvexPolygonShape2D",
+			"RectangleShape2D",
+			"SegmentShape2D",
+			"SeparationRayShape2D",
+			"WorldBoundaryShape2D"
+		],
+		"name": "Shape2D"
+	},
+	"Shape3D": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"BoxShape3D",
+			"CapsuleShape3D",
+			"ConcavePolygonShape3D",
+			"ConvexPolygonShape3D",
+			"CylinderShape3D",
+			"HeightMapShape3D",
+			"SeparationRayShape3D",
+			"SphereShape3D",
+			"WorldBoundaryShape3D"
+		],
+		"name": "Shape3D"
+	},
+	"ShapeCast2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "ShapeCast2D"
+	},
+	"ShapeCast3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "ShapeCast3D"
+	},
+	"Shortcut": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "Shortcut"
+	},
+	"Skeleton2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "Skeleton2D"
+	},
+	"Skeleton3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "Skeleton3D"
+	},
+	"SkeletonIK3D": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "SkeletonIK3D"
+	},
+	"SkeletonModification2D": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"SkeletonModification2DCCDIK",
+			"SkeletonModification2DFABRIK",
+			"SkeletonModification2DJiggle",
+			"SkeletonModification2DLookAt",
+			"SkeletonModification2DPhysicalBones",
+			"SkeletonModification2DStackHolder",
+			"SkeletonModification2DTwoBoneIK"
+		],
+		"name": "SkeletonModification2D"
+	},
+	"SkeletonModification2DCCDIK": {
+		"inherits": [
+			"SkeletonModification2D"
+		],
+		"inheritedBy": [],
+		"name": "SkeletonModification2DCCDIK"
+	},
+	"SkeletonModification2DFABRIK": {
+		"inherits": [
+			"SkeletonModification2D"
+		],
+		"inheritedBy": [],
+		"name": "SkeletonModification2DFABRIK"
+	},
+	"SkeletonModification2DJiggle": {
+		"inherits": [
+			"SkeletonModification2D"
+		],
+		"inheritedBy": [],
+		"name": "SkeletonModification2DJiggle"
+	},
+	"SkeletonModification2DLookAt": {
+		"inherits": [
+			"SkeletonModification2D"
+		],
+		"inheritedBy": [],
+		"name": "SkeletonModification2DLookAt"
+	},
+	"SkeletonModification2DPhysicalBones": {
+		"inherits": [
+			"SkeletonModification2D"
+		],
+		"inheritedBy": [],
+		"name": "SkeletonModification2DPhysicalBones"
+	},
+	"SkeletonModification2DStackHolder": {
+		"inherits": [
+			"SkeletonModification2D"
+		],
+		"inheritedBy": [],
+		"name": "SkeletonModification2DStackHolder"
+	},
+	"SkeletonModification2DTwoBoneIK": {
+		"inherits": [
+			"SkeletonModification2D"
+		],
+		"inheritedBy": [],
+		"name": "SkeletonModification2DTwoBoneIK"
+	},
+	"SkeletonModificationStack2D": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "SkeletonModificationStack2D"
+	},
+	"SkeletonProfile": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"SkeletonProfileHumanoid"
+		],
+		"name": "SkeletonProfile"
+	},
+	"SkeletonProfileHumanoid": {
+		"inherits": [
+			"SkeletonProfile"
+		],
+		"inheritedBy": [],
+		"name": "SkeletonProfileHumanoid"
+	},
+	"Skin": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "Skin"
+	},
+	"SkinReference": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "SkinReference"
+	},
+	"Sky": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "Sky"
+	},
+	"Slider": {
+		"inherits": [
+			"Range"
+		],
+		"inheritedBy": [
+			"HSlider",
+			"VSlider"
+		],
+		"name": "Slider"
+	},
+	"SliderJoint3D": {
+		"inherits": [
+			"Joint3D"
+		],
+		"inheritedBy": [],
+		"name": "SliderJoint3D"
+	},
+	"SoftBody3D": {
+		"inherits": [
+			"MeshInstance3D"
+		],
+		"inheritedBy": [],
+		"name": "SoftBody3D"
+	},
+	"SphereMesh": {
+		"inherits": [
+			"PrimitiveMesh"
+		],
+		"inheritedBy": [],
+		"name": "SphereMesh"
+	},
+	"SphereOccluder3D": {
+		"inherits": [
+			"Occluder3D"
+		],
+		"inheritedBy": [],
+		"name": "SphereOccluder3D"
+	},
+	"SphereShape3D": {
+		"inherits": [
+			"Shape3D"
+		],
+		"inheritedBy": [],
+		"name": "SphereShape3D"
+	},
+	"SpinBox": {
+		"inherits": [
+			"Range"
+		],
+		"inheritedBy": [],
+		"name": "SpinBox"
+	},
+	"SplitContainer": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [
+			"HSplitContainer",
+			"VSplitContainer"
+		],
+		"name": "SplitContainer"
+	},
+	"SpotLight3D": {
+		"inherits": [
+			"Light3D"
+		],
+		"inheritedBy": [],
+		"name": "SpotLight3D"
+	},
+	"SpringArm3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "SpringArm3D"
+	},
+	"Sprite2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "Sprite2D"
+	},
+	"Sprite3D": {
+		"inherits": [
+			"SpriteBase3D"
+		],
+		"inheritedBy": [],
+		"name": "Sprite3D"
+	},
+	"SpriteBase3D": {
+		"inherits": [
+			"GeometryInstance3D"
+		],
+		"inheritedBy": [
+			"AnimatedSprite3D",
+			"Sprite3D"
+		],
+		"name": "SpriteBase3D"
+	},
+	"SpriteFrames": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "SpriteFrames"
+	},
+	"StandardMaterial3D": {
+		"inherits": [
+			"BaseMaterial3D"
+		],
+		"inheritedBy": [],
+		"name": "StandardMaterial3D"
+	},
+	"StaticBody2D": {
+		"inherits": [
+			"PhysicsBody2D"
+		],
+		"inheritedBy": [
+			"AnimatableBody2D"
+		],
+		"name": "StaticBody2D"
+	},
+	"StaticBody3D": {
+		"inherits": [
+			"PhysicsBody3D"
+		],
+		"inheritedBy": [
+			"AnimatableBody3D"
+		],
+		"name": "StaticBody3D"
+	},
+	"StreamPeer": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"StreamPeerBuffer",
+			"StreamPeerExtension",
+			"StreamPeerGZIP",
+			"StreamPeerTCP",
+			"StreamPeerTLS"
+		],
+		"name": "StreamPeer"
+	},
+	"StreamPeerBuffer": {
+		"inherits": [
+			"StreamPeer"
+		],
+		"inheritedBy": [],
+		"name": "StreamPeerBuffer"
+	},
+	"StreamPeerExtension": {
+		"inherits": [
+			"StreamPeer"
+		],
+		"inheritedBy": [],
+		"name": "StreamPeerExtension"
+	},
+	"StreamPeerGZIP": {
+		"inherits": [
+			"StreamPeer"
+		],
+		"inheritedBy": [],
+		"name": "StreamPeerGZIP"
+	},
+	"StreamPeerTCP": {
+		"inherits": [
+			"StreamPeer"
+		],
+		"inheritedBy": [],
+		"name": "StreamPeerTCP"
+	},
+	"StreamPeerTLS": {
+		"inherits": [
+			"StreamPeer"
+		],
+		"inheritedBy": [],
+		"name": "StreamPeerTLS"
+	},
+	"StyleBox": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"StyleBoxEmpty",
+			"StyleBoxFlat",
+			"StyleBoxLine",
+			"StyleBoxTexture"
+		],
+		"name": "StyleBox"
+	},
+	"StyleBoxEmpty": {
+		"inherits": [
+			"StyleBox"
+		],
+		"inheritedBy": [],
+		"name": "StyleBoxEmpty"
+	},
+	"StyleBoxFlat": {
+		"inherits": [
+			"StyleBox"
+		],
+		"inheritedBy": [],
+		"name": "StyleBoxFlat"
+	},
+	"StyleBoxLine": {
+		"inherits": [
+			"StyleBox"
+		],
+		"inheritedBy": [],
+		"name": "StyleBoxLine"
+	},
+	"StyleBoxTexture": {
+		"inherits": [
+			"StyleBox"
+		],
+		"inheritedBy": [],
+		"name": "StyleBoxTexture"
+	},
+	"SubViewport": {
+		"inherits": [
+			"Viewport"
+		],
+		"inheritedBy": [],
+		"name": "SubViewport"
+	},
+	"SubViewportContainer": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [],
+		"name": "SubViewportContainer"
+	},
+	"SurfaceTool": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "SurfaceTool"
+	},
+	"SyntaxHighlighter": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"CodeHighlighter",
+			"EditorSyntaxHighlighter"
+		],
+		"name": "SyntaxHighlighter"
+	},
+	"SystemFont": {
+		"inherits": [
+			"Font"
+		],
+		"inheritedBy": [],
+		"name": "SystemFont"
+	},
+	"TCPServer": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "TCPServer"
+	},
+	"TLSOptions": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "TLSOptions"
+	},
+	"TabBar": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "TabBar"
+	},
+	"TabContainer": {
+		"inherits": [
+			"Container"
+		],
+		"inheritedBy": [],
+		"name": "TabContainer"
+	},
+	"TextEdit": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [
+			"CodeEdit"
+		],
+		"name": "TextEdit"
+	},
+	"TextLine": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "TextLine"
+	},
+	"TextMesh": {
+		"inherits": [
+			"PrimitiveMesh"
+		],
+		"inheritedBy": [],
+		"name": "TextMesh"
+	},
+	"TextParagraph": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "TextParagraph"
+	},
+	"TextServer": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"TextServerExtension"
+		],
+		"name": "TextServer"
+	},
+	"TextServerAdvanced": {
+		"inherits": [
+			"TextServerExtension"
+		],
+		"inheritedBy": [],
+		"name": "TextServerAdvanced"
+	},
+	"TextServerDummy": {
+		"inherits": [
+			"TextServerExtension"
+		],
+		"inheritedBy": [],
+		"name": "TextServerDummy"
+	},
+	"TextServerExtension": {
+		"inherits": [
+			"TextServer"
+		],
+		"inheritedBy": [
+			"TextServerAdvanced",
+			"TextServerDummy"
+		],
+		"name": "TextServerExtension"
+	},
+	"TextServerManager": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "TextServerManager"
+	},
+	"Texture": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"Texture2D",
+			"Texture3D",
+			"TextureLayered"
+		],
+		"name": "Texture"
+	},
+	"Texture2D": {
+		"inherits": [
+			"Texture"
+		],
+		"inheritedBy": [
+			"AnimatedTexture",
+			"AtlasTexture",
+			"CameraTexture",
+			"CanvasTexture",
+			"CompressedTexture2D",
+			"CurveTexture",
+			"CurveXYZTexture",
+			"GradientTexture1D",
+			"GradientTexture2D",
+			"ImageTexture",
+			"MeshTexture",
+			"NoiseTexture2D",
+			"PlaceholderTexture2D",
+			"PortableCompressedTexture2D",
+			"ViewportTexture"
+		],
+		"name": "Texture2D"
+	},
+	"Texture2DArray": {
+		"inherits": [
+			"ImageTextureLayered"
+		],
+		"inheritedBy": [],
+		"name": "Texture2DArray"
+	},
+	"Texture3D": {
+		"inherits": [
+			"Texture"
+		],
+		"inheritedBy": [
+			"CompressedTexture3D",
+			"ImageTexture3D",
+			"PlaceholderTexture3D"
+		],
+		"name": "Texture3D"
+	},
+	"TextureButton": {
+		"inherits": [
+			"BaseButton"
+		],
+		"inheritedBy": [],
+		"name": "TextureButton"
+	},
+	"TextureLayered": {
+		"inherits": [
+			"Texture"
+		],
+		"inheritedBy": [
+			"CompressedTextureLayered",
+			"ImageTextureLayered",
+			"PlaceholderTextureLayered"
+		],
+		"name": "TextureLayered"
+	},
+	"TextureProgressBar": {
+		"inherits": [
+			"Range"
+		],
+		"inheritedBy": [],
+		"name": "TextureProgressBar"
+	},
+	"TextureRect": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "TextureRect"
+	},
+	"Theme": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "Theme"
+	},
+	"ThemeDB": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "ThemeDB"
+	},
+	"Thread": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "Thread"
+	},
+	"TileData": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "TileData"
+	},
+	"TileMap": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "TileMap"
+	},
+	"TileMapPattern": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "TileMapPattern"
+	},
+	"TileSet": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "TileSet"
+	},
+	"TileSetAtlasSource": {
+		"inherits": [
+			"TileSetSource"
+		],
+		"inheritedBy": [],
+		"name": "TileSetAtlasSource"
+	},
+	"TileSetScenesCollectionSource": {
+		"inherits": [
+			"TileSetSource"
+		],
+		"inheritedBy": [],
+		"name": "TileSetScenesCollectionSource"
+	},
+	"TileSetSource": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"TileSetAtlasSource",
+			"TileSetScenesCollectionSource"
+		],
+		"name": "TileSetSource"
+	},
+	"Time": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "Time"
+	},
+	"Timer": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "Timer"
+	},
+	"TorusMesh": {
+		"inherits": [
+			"PrimitiveMesh"
+		],
+		"inheritedBy": [],
+		"name": "TorusMesh"
+	},
+	"TouchScreenButton": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [],
+		"name": "TouchScreenButton"
+	},
+	"Translation": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"OptimizedTranslation"
+		],
+		"name": "Translation"
+	},
+	"TranslationServer": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "TranslationServer"
+	},
+	"Tree": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "Tree"
+	},
+	"TreeItem": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "TreeItem"
+	},
+	"TriangleMesh": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "TriangleMesh"
+	},
+	"TubeTrailMesh": {
+		"inherits": [
+			"PrimitiveMesh"
+		],
+		"inheritedBy": [],
+		"name": "TubeTrailMesh"
+	},
+	"Tween": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "Tween"
+	},
+	"Tweener": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"CallbackTweener",
+			"IntervalTweener",
+			"MethodTweener",
+			"PropertyTweener"
+		],
+		"name": "Tweener"
+	},
+	"UDPServer": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "UDPServer"
+	},
+	"UPNP": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "UPNP"
+	},
+	"UPNPDevice": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "UPNPDevice"
+	},
+	"UndoRedo": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "UndoRedo"
+	},
+	"UniformSetCacheRD": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "UniformSetCacheRD"
+	},
+	"VBoxContainer": {
+		"inherits": [
+			"BoxContainer"
+		],
+		"inheritedBy": [
+			"ColorPicker",
+			"FileSystemDock",
+			"ScriptEditorBase"
+		],
+		"name": "VBoxContainer"
+	},
+	"VFlowContainer": {
+		"inherits": [
+			"FlowContainer"
+		],
+		"inheritedBy": [],
+		"name": "VFlowContainer"
+	},
+	"VScrollBar": {
+		"inherits": [
+			"ScrollBar"
+		],
+		"inheritedBy": [],
+		"name": "VScrollBar"
+	},
+	"VSeparator": {
+		"inherits": [
+			"Separator"
+		],
+		"inheritedBy": [],
+		"name": "VSeparator"
+	},
+	"VSlider": {
+		"inherits": [
+			"Slider"
+		],
+		"inheritedBy": [],
+		"name": "VSlider"
+	},
+	"VSplitContainer": {
+		"inherits": [
+			"SplitContainer"
+		],
+		"inheritedBy": [],
+		"name": "VSplitContainer"
+	},
+	"VehicleBody3D": {
+		"inherits": [
+			"RigidBody3D"
+		],
+		"inheritedBy": [],
+		"name": "VehicleBody3D"
+	},
+	"VehicleWheel3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "VehicleWheel3D"
+	},
+	"VideoStream": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"VideoStreamTheora"
+		],
+		"name": "VideoStream"
+	},
+	"VideoStreamPlayback": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "VideoStreamPlayback"
+	},
+	"VideoStreamPlayer": {
+		"inherits": [
+			"Control"
+		],
+		"inheritedBy": [],
+		"name": "VideoStreamPlayer"
+	},
+	"VideoStreamTheora": {
+		"inherits": [
+			"VideoStream"
+		],
+		"inheritedBy": [],
+		"name": "VideoStreamTheora"
+	},
+	"Viewport": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [
+			"SubViewport",
+			"Window"
+		],
+		"name": "Viewport"
+	},
+	"ViewportTexture": {
+		"inherits": [
+			"Texture2D"
+		],
+		"inheritedBy": [],
+		"name": "ViewportTexture"
+	},
+	"VisibleOnScreenEnabler2D": {
+		"inherits": [
+			"VisibleOnScreenNotifier2D"
+		],
+		"inheritedBy": [],
+		"name": "VisibleOnScreenEnabler2D"
+	},
+	"VisibleOnScreenEnabler3D": {
+		"inherits": [
+			"VisibleOnScreenNotifier3D"
+		],
+		"inheritedBy": [],
+		"name": "VisibleOnScreenEnabler3D"
+	},
+	"VisibleOnScreenNotifier2D": {
+		"inherits": [
+			"Node2D"
+		],
+		"inheritedBy": [
+			"VisibleOnScreenEnabler2D"
+		],
+		"name": "VisibleOnScreenNotifier2D"
+	},
+	"VisibleOnScreenNotifier3D": {
+		"inherits": [
+			"VisualInstance3D"
+		],
+		"inheritedBy": [
+			"VisibleOnScreenEnabler3D"
+		],
+		"name": "VisibleOnScreenNotifier3D"
+	},
+	"VisualInstance3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [
+			"Decal",
+			"FogVolume",
+			"GPUParticlesAttractor3D",
+			"GPUParticlesCollision3D",
+			"GeometryInstance3D",
+			"Light3D",
+			"LightmapGI",
+			"ReflectionProbe",
+			"RootMotionView",
+			"VisibleOnScreenNotifier3D",
+			"VoxelGI"
+		],
+		"name": "VisualInstance3D"
+	},
+	"VisualShader": {
+		"inherits": [
+			"Shader"
+		],
+		"inheritedBy": [],
+		"name": "VisualShader"
+	},
+	"VisualShaderNode": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [
+			"VisualShaderNodeBillboard",
+			"VisualShaderNodeClamp",
+			"VisualShaderNodeColorFunc",
+			"VisualShaderNodeColorOp",
+			"VisualShaderNodeCompare",
+			"VisualShaderNodeConstant",
+			"VisualShaderNodeCubemap",
+			"VisualShaderNodeCustom",
+			"VisualShaderNodeDerivativeFunc",
+			"VisualShaderNodeDeterminant",
+			"VisualShaderNodeDistanceFade",
+			"VisualShaderNodeDotProduct",
+			"VisualShaderNodeFloatFunc",
+			"VisualShaderNodeFloatOp",
+			"VisualShaderNodeFresnel",
+			"VisualShaderNodeIf",
+			"VisualShaderNodeInput",
+			"VisualShaderNodeIntFunc",
+			"VisualShaderNodeIntOp",
+			"VisualShaderNodeIs",
+			"VisualShaderNodeLinearSceneDepth",
+			"VisualShaderNodeMix",
+			"VisualShaderNodeMultiplyAdd",
+			"VisualShaderNodeOuterProduct",
+			"VisualShaderNodeOutput",
+			"VisualShaderNodeParameter",
+			"VisualShaderNodeParameterRef",
+			"VisualShaderNodeParticleAccelerator",
+			"VisualShaderNodeParticleConeVelocity",
+			"VisualShaderNodeParticleEmit",
+			"VisualShaderNodeParticleEmitter",
+			"VisualShaderNodeParticleMultiplyByAxisAngle",
+			"VisualShaderNodeParticleRandomness",
+			"VisualShaderNodeProximityFade",
+			"VisualShaderNodeRandomRange",
+			"VisualShaderNodeRemap",
+			"VisualShaderNodeResizableBase",
+			"VisualShaderNodeSDFRaymarch",
+			"VisualShaderNodeSDFToScreenUV",
+			"VisualShaderNodeSample3D",
+			"VisualShaderNodeScreenUVToSDF",
+			"VisualShaderNodeSmoothStep",
+			"VisualShaderNodeStep",
+			"VisualShaderNodeSwitch",
+			"VisualShaderNodeTexture",
+			"VisualShaderNodeTextureSDF",
+			"VisualShaderNodeTextureSDFNormal",
+			"VisualShaderNodeTransformCompose",
+			"VisualShaderNodeTransformDecompose",
+			"VisualShaderNodeTransformFunc",
+			"VisualShaderNodeTransformOp",
+			"VisualShaderNodeTransformVecMult",
+			"VisualShaderNodeUIntFunc",
+			"VisualShaderNodeUIntOp",
+			"VisualShaderNodeUVFunc",
+			"VisualShaderNodeUVPolarCoord",
+			"VisualShaderNodeVarying",
+			"VisualShaderNodeVectorBase"
+		],
+		"name": "VisualShaderNode"
+	},
+	"VisualShaderNodeBillboard": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeBillboard"
+	},
+	"VisualShaderNodeBooleanConstant": {
+		"inherits": [
+			"VisualShaderNodeConstant"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeBooleanConstant"
+	},
+	"VisualShaderNodeBooleanParameter": {
+		"inherits": [
+			"VisualShaderNodeParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeBooleanParameter"
+	},
+	"VisualShaderNodeClamp": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeClamp"
+	},
+	"VisualShaderNodeColorConstant": {
+		"inherits": [
+			"VisualShaderNodeConstant"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeColorConstant"
+	},
+	"VisualShaderNodeColorFunc": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeColorFunc"
+	},
+	"VisualShaderNodeColorOp": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeColorOp"
+	},
+	"VisualShaderNodeColorParameter": {
+		"inherits": [
+			"VisualShaderNodeParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeColorParameter"
+	},
+	"VisualShaderNodeComment": {
+		"inherits": [
+			"VisualShaderNodeResizableBase"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeComment"
+	},
+	"VisualShaderNodeCompare": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeCompare"
+	},
+	"VisualShaderNodeConstant": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [
+			"VisualShaderNodeBooleanConstant",
+			"VisualShaderNodeColorConstant",
+			"VisualShaderNodeFloatConstant",
+			"VisualShaderNodeIntConstant",
+			"VisualShaderNodeTransformConstant",
+			"VisualShaderNodeUIntConstant",
+			"VisualShaderNodeVec2Constant",
+			"VisualShaderNodeVec3Constant",
+			"VisualShaderNodeVec4Constant"
+		],
+		"name": "VisualShaderNodeConstant"
+	},
+	"VisualShaderNodeCubemap": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeCubemap"
+	},
+	"VisualShaderNodeCubemapParameter": {
+		"inherits": [
+			"VisualShaderNodeTextureParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeCubemapParameter"
+	},
+	"VisualShaderNodeCurveTexture": {
+		"inherits": [
+			"VisualShaderNodeResizableBase"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeCurveTexture"
+	},
+	"VisualShaderNodeCurveXYZTexture": {
+		"inherits": [
+			"VisualShaderNodeResizableBase"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeCurveXYZTexture"
+	},
+	"VisualShaderNodeCustom": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeCustom"
+	},
+	"VisualShaderNodeDerivativeFunc": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeDerivativeFunc"
+	},
+	"VisualShaderNodeDeterminant": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeDeterminant"
+	},
+	"VisualShaderNodeDistanceFade": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeDistanceFade"
+	},
+	"VisualShaderNodeDotProduct": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeDotProduct"
+	},
+	"VisualShaderNodeExpression": {
+		"inherits": [
+			"VisualShaderNodeGroupBase"
+		],
+		"inheritedBy": [
+			"VisualShaderNodeGlobalExpression"
+		],
+		"name": "VisualShaderNodeExpression"
+	},
+	"VisualShaderNodeFaceForward": {
+		"inherits": [
+			"VisualShaderNodeVectorBase"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeFaceForward"
+	},
+	"VisualShaderNodeFloatConstant": {
+		"inherits": [
+			"VisualShaderNodeConstant"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeFloatConstant"
+	},
+	"VisualShaderNodeFloatFunc": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeFloatFunc"
+	},
+	"VisualShaderNodeFloatOp": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeFloatOp"
+	},
+	"VisualShaderNodeFloatParameter": {
+		"inherits": [
+			"VisualShaderNodeParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeFloatParameter"
+	},
+	"VisualShaderNodeFresnel": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeFresnel"
+	},
+	"VisualShaderNodeGlobalExpression": {
+		"inherits": [
+			"VisualShaderNodeExpression"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeGlobalExpression"
+	},
+	"VisualShaderNodeGroupBase": {
+		"inherits": [
+			"VisualShaderNodeResizableBase"
+		],
+		"inheritedBy": [
+			"VisualShaderNodeExpression"
+		],
+		"name": "VisualShaderNodeGroupBase"
+	},
+	"VisualShaderNodeIf": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeIf"
+	},
+	"VisualShaderNodeInput": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeInput"
+	},
+	"VisualShaderNodeIntConstant": {
+		"inherits": [
+			"VisualShaderNodeConstant"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeIntConstant"
+	},
+	"VisualShaderNodeIntFunc": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeIntFunc"
+	},
+	"VisualShaderNodeIntOp": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeIntOp"
+	},
+	"VisualShaderNodeIntParameter": {
+		"inherits": [
+			"VisualShaderNodeParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeIntParameter"
+	},
+	"VisualShaderNodeIs": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeIs"
+	},
+	"VisualShaderNodeLinearSceneDepth": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeLinearSceneDepth"
+	},
+	"VisualShaderNodeMix": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeMix"
+	},
+	"VisualShaderNodeMultiplyAdd": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeMultiplyAdd"
+	},
+	"VisualShaderNodeOuterProduct": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeOuterProduct"
+	},
+	"VisualShaderNodeOutput": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [
+			"VisualShaderNodeParticleOutput"
+		],
+		"name": "VisualShaderNodeOutput"
+	},
+	"VisualShaderNodeParameter": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [
+			"VisualShaderNodeBooleanParameter",
+			"VisualShaderNodeColorParameter",
+			"VisualShaderNodeFloatParameter",
+			"VisualShaderNodeIntParameter",
+			"VisualShaderNodeTextureParameter",
+			"VisualShaderNodeTransformParameter",
+			"VisualShaderNodeUIntParameter",
+			"VisualShaderNodeVec2Parameter",
+			"VisualShaderNodeVec3Parameter",
+			"VisualShaderNodeVec4Parameter"
+		],
+		"name": "VisualShaderNodeParameter"
+	},
+	"VisualShaderNodeParameterRef": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeParameterRef"
+	},
+	"VisualShaderNodeParticleAccelerator": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeParticleAccelerator"
+	},
+	"VisualShaderNodeParticleBoxEmitter": {
+		"inherits": [
+			"VisualShaderNodeParticleEmitter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeParticleBoxEmitter"
+	},
+	"VisualShaderNodeParticleConeVelocity": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeParticleConeVelocity"
+	},
+	"VisualShaderNodeParticleEmit": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeParticleEmit"
+	},
+	"VisualShaderNodeParticleEmitter": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [
+			"VisualShaderNodeParticleBoxEmitter",
+			"VisualShaderNodeParticleMeshEmitter",
+			"VisualShaderNodeParticleRingEmitter",
+			"VisualShaderNodeParticleSphereEmitter"
+		],
+		"name": "VisualShaderNodeParticleEmitter"
+	},
+	"VisualShaderNodeParticleMeshEmitter": {
+		"inherits": [
+			"VisualShaderNodeParticleEmitter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeParticleMeshEmitter"
+	},
+	"VisualShaderNodeParticleMultiplyByAxisAngle": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeParticleMultiplyByAxisAngle"
+	},
+	"VisualShaderNodeParticleOutput": {
+		"inherits": [
+			"VisualShaderNodeOutput"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeParticleOutput"
+	},
+	"VisualShaderNodeParticleRandomness": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeParticleRandomness"
+	},
+	"VisualShaderNodeParticleRingEmitter": {
+		"inherits": [
+			"VisualShaderNodeParticleEmitter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeParticleRingEmitter"
+	},
+	"VisualShaderNodeParticleSphereEmitter": {
+		"inherits": [
+			"VisualShaderNodeParticleEmitter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeParticleSphereEmitter"
+	},
+	"VisualShaderNodeProximityFade": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeProximityFade"
+	},
+	"VisualShaderNodeRandomRange": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeRandomRange"
+	},
+	"VisualShaderNodeRemap": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeRemap"
+	},
+	"VisualShaderNodeResizableBase": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [
+			"VisualShaderNodeComment",
+			"VisualShaderNodeCurveTexture",
+			"VisualShaderNodeCurveXYZTexture",
+			"VisualShaderNodeGroupBase"
+		],
+		"name": "VisualShaderNodeResizableBase"
+	},
+	"VisualShaderNodeSDFRaymarch": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeSDFRaymarch"
+	},
+	"VisualShaderNodeSDFToScreenUV": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeSDFToScreenUV"
+	},
+	"VisualShaderNodeSample3D": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [
+			"VisualShaderNodeTexture2DArray",
+			"VisualShaderNodeTexture3D"
+		],
+		"name": "VisualShaderNodeSample3D"
+	},
+	"VisualShaderNodeScreenUVToSDF": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeScreenUVToSDF"
+	},
+	"VisualShaderNodeSmoothStep": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeSmoothStep"
+	},
+	"VisualShaderNodeStep": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeStep"
+	},
+	"VisualShaderNodeSwitch": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeSwitch"
+	},
+	"VisualShaderNodeTexture": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTexture"
+	},
+	"VisualShaderNodeTexture2DArray": {
+		"inherits": [
+			"VisualShaderNodeSample3D"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTexture2DArray"
+	},
+	"VisualShaderNodeTexture2DArrayParameter": {
+		"inherits": [
+			"VisualShaderNodeTextureParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTexture2DArrayParameter"
+	},
+	"VisualShaderNodeTexture2DParameter": {
+		"inherits": [
+			"VisualShaderNodeTextureParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTexture2DParameter"
+	},
+	"VisualShaderNodeTexture3D": {
+		"inherits": [
+			"VisualShaderNodeSample3D"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTexture3D"
+	},
+	"VisualShaderNodeTexture3DParameter": {
+		"inherits": [
+			"VisualShaderNodeTextureParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTexture3DParameter"
+	},
+	"VisualShaderNodeTextureParameter": {
+		"inherits": [
+			"VisualShaderNodeParameter"
+		],
+		"inheritedBy": [
+			"VisualShaderNodeCubemapParameter",
+			"VisualShaderNodeTexture2DArrayParameter",
+			"VisualShaderNodeTexture2DParameter",
+			"VisualShaderNodeTexture3DParameter",
+			"VisualShaderNodeTextureParameterTriplanar"
+		],
+		"name": "VisualShaderNodeTextureParameter"
+	},
+	"VisualShaderNodeTextureParameterTriplanar": {
+		"inherits": [
+			"VisualShaderNodeTextureParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTextureParameterTriplanar"
+	},
+	"VisualShaderNodeTextureSDF": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTextureSDF"
+	},
+	"VisualShaderNodeTextureSDFNormal": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTextureSDFNormal"
+	},
+	"VisualShaderNodeTransformCompose": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTransformCompose"
+	},
+	"VisualShaderNodeTransformConstant": {
+		"inherits": [
+			"VisualShaderNodeConstant"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTransformConstant"
+	},
+	"VisualShaderNodeTransformDecompose": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTransformDecompose"
+	},
+	"VisualShaderNodeTransformFunc": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTransformFunc"
+	},
+	"VisualShaderNodeTransformOp": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTransformOp"
+	},
+	"VisualShaderNodeTransformParameter": {
+		"inherits": [
+			"VisualShaderNodeParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTransformParameter"
+	},
+	"VisualShaderNodeTransformVecMult": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeTransformVecMult"
+	},
+	"VisualShaderNodeUIntConstant": {
+		"inherits": [
+			"VisualShaderNodeConstant"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeUIntConstant"
+	},
+	"VisualShaderNodeUIntFunc": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeUIntFunc"
+	},
+	"VisualShaderNodeUIntOp": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeUIntOp"
+	},
+	"VisualShaderNodeUIntParameter": {
+		"inherits": [
+			"VisualShaderNodeParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeUIntParameter"
+	},
+	"VisualShaderNodeUVFunc": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeUVFunc"
+	},
+	"VisualShaderNodeUVPolarCoord": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeUVPolarCoord"
+	},
+	"VisualShaderNodeVarying": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [
+			"VisualShaderNodeVaryingGetter",
+			"VisualShaderNodeVaryingSetter"
+		],
+		"name": "VisualShaderNodeVarying"
+	},
+	"VisualShaderNodeVaryingGetter": {
+		"inherits": [
+			"VisualShaderNodeVarying"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVaryingGetter"
+	},
+	"VisualShaderNodeVaryingSetter": {
+		"inherits": [
+			"VisualShaderNodeVarying"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVaryingSetter"
+	},
+	"VisualShaderNodeVec2Constant": {
+		"inherits": [
+			"VisualShaderNodeConstant"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVec2Constant"
+	},
+	"VisualShaderNodeVec2Parameter": {
+		"inherits": [
+			"VisualShaderNodeParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVec2Parameter"
+	},
+	"VisualShaderNodeVec3Constant": {
+		"inherits": [
+			"VisualShaderNodeConstant"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVec3Constant"
+	},
+	"VisualShaderNodeVec3Parameter": {
+		"inherits": [
+			"VisualShaderNodeParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVec3Parameter"
+	},
+	"VisualShaderNodeVec4Constant": {
+		"inherits": [
+			"VisualShaderNodeConstant"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVec4Constant"
+	},
+	"VisualShaderNodeVec4Parameter": {
+		"inherits": [
+			"VisualShaderNodeParameter"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVec4Parameter"
+	},
+	"VisualShaderNodeVectorBase": {
+		"inherits": [
+			"VisualShaderNode"
+		],
+		"inheritedBy": [
+			"VisualShaderNodeFaceForward",
+			"VisualShaderNodeVectorCompose",
+			"VisualShaderNodeVectorDecompose",
+			"VisualShaderNodeVectorDistance",
+			"VisualShaderNodeVectorFunc",
+			"VisualShaderNodeVectorLen",
+			"VisualShaderNodeVectorOp",
+			"VisualShaderNodeVectorRefract"
+		],
+		"name": "VisualShaderNodeVectorBase"
+	},
+	"VisualShaderNodeVectorCompose": {
+		"inherits": [
+			"VisualShaderNodeVectorBase"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVectorCompose"
+	},
+	"VisualShaderNodeVectorDecompose": {
+		"inherits": [
+			"VisualShaderNodeVectorBase"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVectorDecompose"
+	},
+	"VisualShaderNodeVectorDistance": {
+		"inherits": [
+			"VisualShaderNodeVectorBase"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVectorDistance"
+	},
+	"VisualShaderNodeVectorFunc": {
+		"inherits": [
+			"VisualShaderNodeVectorBase"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVectorFunc"
+	},
+	"VisualShaderNodeVectorLen": {
+		"inherits": [
+			"VisualShaderNodeVectorBase"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVectorLen"
+	},
+	"VisualShaderNodeVectorOp": {
+		"inherits": [
+			"VisualShaderNodeVectorBase"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVectorOp"
+	},
+	"VisualShaderNodeVectorRefract": {
+		"inherits": [
+			"VisualShaderNodeVectorBase"
+		],
+		"inheritedBy": [],
+		"name": "VisualShaderNodeVectorRefract"
+	},
+	"VoxelGI": {
+		"inherits": [
+			"VisualInstance3D"
+		],
+		"inheritedBy": [],
+		"name": "VoxelGI"
+	},
+	"VoxelGIData": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "VoxelGIData"
+	},
+	"WeakRef": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "WeakRef"
+	},
+	"WebRTCDataChannel": {
+		"inherits": [
+			"PacketPeer"
+		],
+		"inheritedBy": [
+			"WebRTCDataChannelExtension"
+		],
+		"name": "WebRTCDataChannel"
+	},
+	"WebRTCDataChannelExtension": {
+		"inherits": [
+			"WebRTCDataChannel"
+		],
+		"inheritedBy": [],
+		"name": "WebRTCDataChannelExtension"
+	},
+	"WebRTCMultiplayerPeer": {
+		"inherits": [
+			"MultiplayerPeer"
+		],
+		"inheritedBy": [],
+		"name": "WebRTCMultiplayerPeer"
+	},
+	"WebRTCPeerConnection": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"WebRTCPeerConnectionExtension"
+		],
+		"name": "WebRTCPeerConnection"
+	},
+	"WebRTCPeerConnectionExtension": {
+		"inherits": [
+			"WebRTCPeerConnection"
+		],
+		"inheritedBy": [],
+		"name": "WebRTCPeerConnectionExtension"
+	},
+	"WebSocketMultiplayerPeer": {
+		"inherits": [
+			"MultiplayerPeer"
+		],
+		"inheritedBy": [],
+		"name": "WebSocketMultiplayerPeer"
+	},
+	"WebSocketPeer": {
+		"inherits": [
+			"PacketPeer"
+		],
+		"inheritedBy": [],
+		"name": "WebSocketPeer"
+	},
+	"WebXRInterface": {
+		"inherits": [
+			"XRInterface"
+		],
+		"inheritedBy": [],
+		"name": "WebXRInterface"
+	},
+	"Window": {
+		"inherits": [
+			"Viewport"
+		],
+		"inheritedBy": [
+			"AcceptDialog",
+			"Popup"
+		],
+		"name": "Window"
+	},
+	"WorkerThreadPool": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "WorkerThreadPool"
+	},
+	"World2D": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "World2D"
+	},
+	"World3D": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "World3D"
+	},
+	"WorldBoundaryShape2D": {
+		"inherits": [
+			"Shape2D"
+		],
+		"inheritedBy": [],
+		"name": "WorldBoundaryShape2D"
+	},
+	"WorldBoundaryShape3D": {
+		"inherits": [
+			"Shape3D"
+		],
+		"inheritedBy": [],
+		"name": "WorldBoundaryShape3D"
+	},
+	"WorldEnvironment": {
+		"inherits": [
+			"Node"
+		],
+		"inheritedBy": [],
+		"name": "WorldEnvironment"
+	},
+	"X509Certificate": {
+		"inherits": [
+			"Resource"
+		],
+		"inheritedBy": [],
+		"name": "X509Certificate"
+	},
+	"XMLParser": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "XMLParser"
+	},
+	"XRAnchor3D": {
+		"inherits": [
+			"XRNode3D"
+		],
+		"inheritedBy": [],
+		"name": "XRAnchor3D"
+	},
+	"XRCamera3D": {
+		"inherits": [
+			"Camera3D"
+		],
+		"inheritedBy": [],
+		"name": "XRCamera3D"
+	},
+	"XRController3D": {
+		"inherits": [
+			"XRNode3D"
+		],
+		"inheritedBy": [],
+		"name": "XRController3D"
+	},
+	"XRInterface": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [
+			"MobileVRInterface",
+			"OpenXRInterface",
+			"WebXRInterface",
+			"XRInterfaceExtension"
+		],
+		"name": "XRInterface"
+	},
+	"XRInterfaceExtension": {
+		"inherits": [
+			"XRInterface"
+		],
+		"inheritedBy": [],
+		"name": "XRInterfaceExtension"
+	},
+	"XRNode3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [
+			"XRAnchor3D",
+			"XRController3D"
+		],
+		"name": "XRNode3D"
+	},
+	"XROrigin3D": {
+		"inherits": [
+			"Node3D"
+		],
+		"inheritedBy": [],
+		"name": "XROrigin3D"
+	},
+	"XRPose": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "XRPose"
+	},
+	"XRPositionalTracker": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "XRPositionalTracker"
+	},
+	"XRServer": {
+		"inherits": [
+			"Object"
+		],
+		"inheritedBy": [],
+		"name": "XRServer"
+	},
+	"ZIPPacker": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "ZIPPacker"
+	},
+	"ZIPReader": {
+		"inherits": [
+			"RefCounted"
+		],
+		"inheritedBy": [],
+		"name": "ZIPReader"
+	},
+	"Nil": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Nil"
+	},
+	"bool": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "bool"
+	},
+	"int": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "int"
+	},
+	"float": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "float"
+	},
+	"String": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "String"
+	},
+	"Vector2": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Vector2"
+	},
+	"Vector2i": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Vector2i"
+	},
+	"Rect2": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Rect2"
+	},
+	"Rect2i": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Rect2i"
+	},
+	"Vector3": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Vector3"
+	},
+	"Vector3i": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Vector3i"
+	},
+	"Transform2D": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Transform2D"
+	},
+	"Vector4": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Vector4"
+	},
+	"Vector4i": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Vector4i"
+	},
+	"Plane": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Plane"
+	},
+	"Quaternion": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Quaternion"
+	},
+	"AABB": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "AABB"
+	},
+	"Basis": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Basis"
+	},
+	"Transform3D": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Transform3D"
+	},
+	"Projection": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Projection"
+	},
+	"Color": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Color"
+	},
+	"StringName": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "StringName"
+	},
+	"NodePath": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "NodePath"
+	},
+	"RID": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "RID"
+	},
+	"Callable": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Callable"
+	},
+	"Signal": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Signal"
+	},
+	"Dictionary": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Dictionary"
+	},
+	"Array": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "Array"
+	},
+	"PackedByteArray": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "PackedByteArray"
+	},
+	"PackedInt32Array": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "PackedInt32Array"
+	},
+	"PackedInt64Array": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "PackedInt64Array"
+	},
+	"PackedFloat32Array": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "PackedFloat32Array"
+	},
+	"PackedFloat64Array": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "PackedFloat64Array"
+	},
+	"PackedStringArray": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "PackedStringArray"
+	},
+	"PackedVector2Array": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "PackedVector2Array"
+	},
+	"PackedVector3Array": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "PackedVector3Array"
+	},
+	"PackedColorArray": {
+		"inherits": [],
+		"inheritedBy": [],
+		"name": "PackedColorArray"
+	}
+}

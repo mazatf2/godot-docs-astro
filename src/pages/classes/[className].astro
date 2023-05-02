@@ -1,0 +1,179 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import classesJson from '../../data/classes.json'
+import xmlpathsJson from '../../data/xmlpaths.json'
+import H2 from '../../components/H2.astro'
+import {xmlParameters} from './components/xmlParameters'
+import {Members, MembersList} from './components/Members'
+import H1 from '../../components/H1.astro'
+import {Methods, MethodsList} from './components/Methods'
+import tagsJson from '../../data/tags.json'
+import {Annotations, AnnotationsList} from './components/Annotations'
+import {Signals, SignalsList} from './components/Signals'
+import {Constructors, ConstructorsList} from './components/Constructors'
+import {Enums, EnumsList} from './components/Enums'
+import {Operators, OperatorsList} from './components/Operators'
+import {ThemeItems, ThemeItemsList} from './components/ThemeItems'
+import {Tutorials, TutorialsList} from './components/Tutorials'
+import {Constants, ConstantsList} from './components/Constants'
+import {Description} from './components/Description'
+import {Inherits} from './components/Inherits'
+
+export async function getStaticPaths() {
+	return classesJson
+}
+
+const {className} = Astro.params
+const {data, tags} = Astro.props
+
+const xmlPath = xmlpathsJson[className]
+if (!xmlPath) throw xmlPath
+
+const {
+	brief_description,
+	description,
+	members,
+	methods,
+	signals,
+	constants,
+	theme_items,
+	tutorials,
+	constructors,
+	annotations,
+	operators,
+	Return_,
+	Returns_error,
+	Param
+}: xmlParameters = await xmlParameters(xmlPath)
+---
+<Layout title={className}>
+	<H2 id="Inheritance">Inheritance</H2>
+	<Inherits className={className}/>
+	<details open>
+		<summary>Table of contents</summary>
+		<ul>
+			{members.map(el =>
+
+				<li>
+					<a href={'#' + el.attributes.name.value}>
+						<MembersList el={el} className={className}/>
+
+					</a>
+				</li>
+			)}
+
+			{methods.map(el =>
+				<li>
+					<a href={'#' + el.attributes.name.value}>
+						<MethodsList el={el}/>
+					</a>
+				</li>
+			)}
+			{annotations.map(el =>
+				<li>
+					<a href={'#' + el.attributes.name.value}>
+						<AnnotationsList el={el}/>
+					</a>
+				</li>
+			)}
+			{constants.map(el =>
+				<li>
+					<a href={'#' + el.attributes.name.value}>
+						<ConstantsList el={el}/>
+					</a>
+				</li>
+			)}
+			{constructors.map(el =>
+				<li>
+					<a href={'#' + el.attributes.name.value}>
+						<ConstructorsList el={el}/>
+					</a>
+				</li>
+			)}
+			{operators.map(el =>
+				<li>
+					<a href={'#' + el.attributes.name.value}>
+						<OperatorsList el={el} className={className}/>
+					</a>
+				</li>
+			)}
+			{signals.map(el =>
+				<li>
+					<a href={'#' + el.attributes.name.value}>
+						<SignalsList el={el}/>
+					</a>
+				</li>
+			)}
+			{theme_items.map(el =>
+				<li>
+					<a href={'#' + el.attributes.name.value}>
+						<ThemeItemsList el={el}/>
+					</a>
+				</li>
+			)}
+			{tutorials.map(el =>
+				<li>
+					<a href={'#' + el.attributes.name.value}>
+						<TutorialsList el={el}/>
+					</a>
+				</li>
+			)}
+		</ul>
+	</details>
+	<H1 id="Description">{className}</H1>
+	<p>
+		{tagsJson[className].map((tag, i, arr) =>
+			<>
+				<a href={'/tags/' + tag}>{tag}</a>{i !== arr.length - 1 && ', '}
+			</>
+		)}
+	</p>
+	<blockquote>
+		<Description txt={brief_description}/>
+	</blockquote>
+	<Description txt={description}/>
+	<H2 id="Members">Members</H2>
+	<p>
+		{members.map(el =>
+			<Members el={el} className={className}/>
+		)}
+	</p>
+	<H2 id="Methods">Methods</H2>
+	<p>
+		{methods.map(el =>
+			<Methods el={el}/>
+		)}
+	</p>
+	<H2 id="Annotations">Annotations</H2>
+	{annotations.map(el =>
+		<Annotations el={el}/>
+	)}
+	<H2 id="Constants">Constants</H2>
+	{constants.map(el =>
+		<Constants el={el}/>
+	)}
+	<H2 id="Constructors">Constructors</H2>
+	{constructors.map(el =>
+		<Constructors el={el}/>
+	)}
+	<H2 id="Enums">Enums</H2>
+	{[].map(el =>
+		<Enums el={el}/>
+	)}
+	<H2 id="Operators">Operators</H2>
+	{operators.map(el =>
+		<Operators el={el} className={className}/>
+	)}
+	<H2 id="Signals">Signals</H2>
+	{signals.map(el =>
+		<Signals el={el}/>
+	)}
+	<H2 id="Theme_Items">Theme Items</H2>
+	{theme_items.map(el =>
+		<ThemeItems el={el}/>
+	)}
+	<H2 id="Tutorials">Tutorials</H2>
+	{signals.map(el =>
+		<Tutorials el={el}/>
+	)}
+</Layout>

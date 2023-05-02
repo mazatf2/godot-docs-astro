@@ -1,0 +1,5288 @@
+[
+	{
+		"params": {
+			"className": "@GDScript"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "@GlobalScope"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AABB"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AcceptDialog"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AESContext"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimatableBody2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimatableBody3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimatedSprite2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimatedSprite3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimatedTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Animation"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationLibrary"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNode"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeAdd2"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeAdd3"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeAnimation"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeBlend2"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeBlend3"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeBlendSpace1D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeBlendSpace2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeBlendTree"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeOneShot"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeOutput"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeStateMachine"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeStateMachinePlayback"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeStateMachineTransition"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeSync"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeTimeScale"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeTimeSeek"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationNodeTransition"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationPlayer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationRootNode"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AnimationTree"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Area2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Area3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Array"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ArrayMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ArrayOccluder3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AspectRatioContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AStar2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AStar3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AStarGrid2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AtlasTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioBusLayout"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffect"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectAmplify"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectBandLimitFilter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectBandPassFilter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectCapture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectChorus"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectCompressor"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectDelay"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectDistortion"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectEQ"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectEQ10"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectEQ21"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectEQ6"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectFilter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectHighPassFilter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectHighShelfFilter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectInstance"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectLimiter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectLowPassFilter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectLowShelfFilter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectNotchFilter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectPanner"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectPhaser"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectPitchShift"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectRecord"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectReverb"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectSpectrumAnalyzer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectSpectrumAnalyzerInstance"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioEffectStereoEnhance"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioListener2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioListener3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioServer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStream"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamGenerator"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamGeneratorPlayback"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamMicrophone"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamMP3"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamOggVorbis"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamPlayback"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamPlaybackOggVorbis"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamPlaybackPolyphonic"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamPlaybackResampled"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamPlayer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamPlayer2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamPlayer3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamPolyphonic"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamRandomizer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "AudioStreamWAV"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "BackBufferCopy"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "BaseButton"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "BaseMaterial3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Basis"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "BitMap"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Bone2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "BoneAttachment3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "BoneMap"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "bool"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "BoxContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "BoxMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "BoxOccluder3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "BoxShape3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Button"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ButtonGroup"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Callable"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CallbackTweener"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Camera2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Camera3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CameraAttributes"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CameraAttributesPhysical"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CameraAttributesPractical"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CameraFeed"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CameraServer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CameraTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CanvasGroup"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CanvasItem"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CanvasItemMaterial"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CanvasLayer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CanvasModulate"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CanvasTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CapsuleMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CapsuleShape2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CapsuleShape3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CenterContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CharacterBody2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CharacterBody3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CharFXTransform"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CheckBox"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CheckButton"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CircleShape2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ClassDB"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CodeEdit"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CodeHighlighter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CollisionObject2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CollisionObject3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CollisionPolygon2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CollisionPolygon3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CollisionShape2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CollisionShape3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Color"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ColorPicker"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ColorPickerButton"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ColorRect"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CompressedCubemap"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CompressedCubemapArray"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CompressedTexture2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CompressedTexture2DArray"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CompressedTexture3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CompressedTextureLayered"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ConcavePolygonShape2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ConcavePolygonShape3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ConeTwistJoint3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ConfigFile"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ConfirmationDialog"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Container"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Control"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ConvexPolygonShape2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ConvexPolygonShape3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CPUParticles2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CPUParticles3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Crypto"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CryptoKey"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CSGBox3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CSGCombiner3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CSGCylinder3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CSGMesh3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CSGPolygon3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CSGPrimitive3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CSGShape3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CSGSphere3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CSGTorus3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CSharpScript"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Cubemap"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CubemapArray"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Curve"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Curve2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Curve3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CurveTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CurveXYZTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CylinderMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "CylinderShape3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "DampedSpringJoint2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Decal"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Dictionary"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "DirAccess"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "DirectionalLight2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "DirectionalLight3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "DisplayServer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "DTLSServer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorCommandPalette"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorDebuggerPlugin"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorDebuggerSession"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorExportPlatform"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorExportPlatformAndroid"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorExportPlatformIOS"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorExportPlatformLinuxBSD"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorExportPlatformMacOS"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorExportPlatformPC"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorExportPlatformWeb"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorExportPlatformWindows"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorExportPlugin"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorFeatureProfile"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorFileDialog"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorFileSystem"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorFileSystemDirectory"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorFileSystemImportFormatSupportQuery"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorImportPlugin"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorInspector"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorInspectorPlugin"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorInterface"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorNode3DGizmo"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorNode3DGizmoPlugin"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorPaths"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorPlugin"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorProperty"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorResourceConversionPlugin"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorResourcePicker"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorResourcePreview"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorResourcePreviewGenerator"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorSceneFormatImporter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorSceneFormatImporterBlend"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorSceneFormatImporterFBX"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorSceneFormatImporterGLTF"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorScenePostImport"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorScenePostImportPlugin"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorScript"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorScriptPicker"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorSelection"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorSettings"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorSpinSlider"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorSyntaxHighlighter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorTranslationParserPlugin"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorUndoRedoManager"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EditorVCSInterface"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EncodedObjectAsID"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ENetConnection"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ENetMultiplayerPeer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ENetPacketPeer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Engine"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EngineDebugger"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "EngineProfiler"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Environment"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Expression"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "FastNoiseLite"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "FileAccess"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "FileDialog"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "FileSystemDock"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "float"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "FlowContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "FogMaterial"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "FogVolume"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Font"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "FontFile"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "FontVariation"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GDExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GDExtensionManager"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GDScript"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Generic6DOFJoint3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Geometry2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Geometry3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GeometryInstance3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFAccessor"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFAnimation"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFBufferView"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFCamera"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFCollider"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFDocument"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFDocumentExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFDocumentExtensionConvertImporterMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFLight"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFNode"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFPhysicsBody"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFSkeleton"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFSkin"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFSpecGloss"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFState"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GLTFTextureSampler"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GodotSharp"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GPUParticles2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GPUParticles3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GPUParticlesAttractor3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GPUParticlesAttractorBox3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GPUParticlesAttractorSphere3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GPUParticlesAttractorVectorField3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GPUParticlesCollision3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GPUParticlesCollisionBox3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GPUParticlesCollisionHeightField3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GPUParticlesCollisionSDF3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GPUParticlesCollisionSphere3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Gradient"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GradientTexture1D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GradientTexture2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GraphEdit"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GraphNode"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GridContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GridMap"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "GrooveJoint2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "HashingContext"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "HBoxContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "HeightMapShape3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "HFlowContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "HingeJoint3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "HMACContext"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "HScrollBar"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "HSeparator"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "HSlider"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "HSplitContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "HTTPClient"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "HTTPRequest"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Image"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ImageFormatLoader"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ImageFormatLoaderExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ImageTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ImageTexture3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ImageTextureLayered"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ImmediateMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ImporterMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ImporterMeshInstance3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Input"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEvent"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventAction"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventFromWindow"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventGesture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventJoypadButton"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventJoypadMotion"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventKey"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventMagnifyGesture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventMIDI"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventMouse"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventMouseButton"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventMouseMotion"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventPanGesture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventScreenDrag"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventScreenTouch"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventShortcut"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputEventWithModifiers"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InputMap"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "InstancePlaceholder"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "int"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "IntervalTweener"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "IP"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ItemList"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "JavaClass"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "JavaClassWrapper"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "JavaScriptBridge"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "JavaScriptObject"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "JNISingleton"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Joint2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Joint3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "JSON"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "JSONRPC"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "KinematicCollision2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "KinematicCollision3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Label"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Label3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "LabelSettings"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Light2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Light3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "LightmapGI"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "LightmapGIData"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Lightmapper"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "LightmapperRD"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "LightmapProbe"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "LightOccluder2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Line2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "LineEdit"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "LinkButton"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MainLoop"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MarginContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Marker2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Marker3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Marshalls"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Material"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MenuBar"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MenuButton"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Mesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MeshConvexDecompositionSettings"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MeshDataTool"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MeshInstance2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MeshInstance3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MeshLibrary"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MeshTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MethodTweener"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MissingNode"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MissingResource"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MobileVRInterface"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MovieWriter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MultiMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MultiMeshInstance2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MultiMeshInstance3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MultiplayerAPI"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MultiplayerAPIExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MultiplayerPeer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MultiplayerPeerExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MultiplayerSpawner"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "MultiplayerSynchronizer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Mutex"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationAgent2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationAgent3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationLink2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationLink3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationMeshGenerator"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationObstacle2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationObstacle3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationPathQueryParameters2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationPathQueryParameters3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationPathQueryResult2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationPathQueryResult3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationPolygon"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationRegion2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationRegion3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationServer2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NavigationServer3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NinePatchRect"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Node"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Node2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Node3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Node3DGizmo"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NodePath"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Noise"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NoiseTexture2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "NoiseTexture3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Object"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Occluder3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OccluderInstance3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OccluderPolygon2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OfflineMultiplayerPeer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OggPacketSequence"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OggPacketSequencePlayback"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OmniLight3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OpenXRAction"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OpenXRActionMap"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OpenXRActionSet"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OpenXRHand"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OpenXRInteractionProfile"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OpenXRInterface"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OpenXRIPBinding"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OptimizedTranslation"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OptionButton"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ORMMaterial3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "OS"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PackedByteArray"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PackedColorArray"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PackedDataContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PackedDataContainerRef"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PackedFloat32Array"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PackedFloat64Array"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PackedInt32Array"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PackedInt64Array"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PackedScene"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PackedStringArray"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PackedVector2Array"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PackedVector3Array"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PacketPeer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PacketPeerDTLS"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PacketPeerExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PacketPeerStream"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PacketPeerUDP"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Panel"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PanelContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PanoramaSkyMaterial"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ParallaxBackground"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ParallaxLayer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ParticleProcessMaterial"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Path2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Path3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PathFollow2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PathFollow3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PCKPacker"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Performance"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicalBone2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicalBone3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicalSkyMaterial"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsBody2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsBody3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsDirectBodyState2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsDirectBodyState2DExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsDirectBodyState3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsDirectBodyState3DExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsDirectSpaceState2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsDirectSpaceState2DExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsDirectSpaceState3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsDirectSpaceState3DExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsMaterial"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsPointQueryParameters2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsPointQueryParameters3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsRayQueryParameters2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsRayQueryParameters3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsServer2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsServer2DExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsServer2DManager"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsServer3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsServer3DExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsServer3DManager"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsServer3DRenderingServerHandler"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsShapeQueryParameters2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsShapeQueryParameters3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsTestMotionParameters2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsTestMotionParameters3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsTestMotionResult2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PhysicsTestMotionResult3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PinJoint2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PinJoint3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PlaceholderCubemap"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PlaceholderCubemapArray"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PlaceholderMaterial"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PlaceholderMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PlaceholderTexture2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PlaceholderTexture2DArray"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PlaceholderTexture3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PlaceholderTextureLayered"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Plane"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PlaneMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PointLight2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PointMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Polygon2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PolygonOccluder3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PolygonPathFinder"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Popup"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PopupMenu"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PopupPanel"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PortableCompressedTexture2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PrimitiveMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PrismMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ProceduralSkyMaterial"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ProgressBar"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Projection"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ProjectSettings"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "PropertyTweener"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "QuadMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "QuadOccluder3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Quaternion"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RandomNumberGenerator"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Range"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RayCast2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RayCast3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDAttachmentFormat"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDFramebufferPass"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDPipelineColorBlendState"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDPipelineColorBlendStateAttachment"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDPipelineDepthStencilState"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDPipelineMultisampleState"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDPipelineRasterizationState"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDPipelineSpecializationConstant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDSamplerState"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDShaderFile"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDShaderSource"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDShaderSPIRV"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDTextureFormat"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDTextureView"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDUniform"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RDVertexAttribute"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Rect2"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Rect2i"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RectangleShape2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RefCounted"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ReferenceRect"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ReflectionProbe"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RegEx"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RegExMatch"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RemoteTransform2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RemoteTransform3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RenderingDevice"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RenderingServer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Resource"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ResourceFormatLoader"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ResourceFormatSaver"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ResourceImporter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ResourceLoader"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ResourcePreloader"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ResourceSaver"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ResourceUID"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RibbonTrailMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RichTextEffect"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RichTextLabel"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RID"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RigidBody2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RigidBody3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "RootMotionView"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SceneMultiplayer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SceneReplicationConfig"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SceneState"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SceneTree"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SceneTreeTimer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Script"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ScriptCreateDialog"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ScriptEditor"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ScriptEditorBase"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ScriptExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ScriptLanguage"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ScriptLanguageExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ScrollBar"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ScrollContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SegmentShape2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Semaphore"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SeparationRayShape2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SeparationRayShape3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Separator"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Shader"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ShaderGlobalsOverride"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ShaderInclude"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ShaderMaterial"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Shape2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Shape3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ShapeCast2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ShapeCast3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Shortcut"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Signal"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Skeleton2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Skeleton3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkeletonIK3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkeletonModification2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkeletonModification2DCCDIK"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkeletonModification2DFABRIK"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkeletonModification2DJiggle"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkeletonModification2DLookAt"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkeletonModification2DPhysicalBones"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkeletonModification2DStackHolder"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkeletonModification2DTwoBoneIK"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkeletonModificationStack2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkeletonProfile"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkeletonProfileHumanoid"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Skin"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SkinReference"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Sky"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Slider"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SliderJoint3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SoftBody3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SphereMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SphereOccluder3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SphereShape3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SpinBox"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SplitContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SpotLight3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SpringArm3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Sprite2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Sprite3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SpriteBase3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SpriteFrames"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StandardMaterial3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StaticBody2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StaticBody3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StreamPeer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StreamPeerBuffer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StreamPeerExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StreamPeerGZIP"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StreamPeerTCP"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StreamPeerTLS"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "String"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StringName"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StyleBox"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StyleBoxEmpty"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StyleBoxFlat"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StyleBoxLine"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "StyleBoxTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SubViewport"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SubViewportContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SurfaceTool"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SyntaxHighlighter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "SystemFont"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TabBar"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TabContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TCPServer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextEdit"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextLine"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextParagraph"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextServer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextServerAdvanced"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextServerDummy"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextServerExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextServerFallback"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextServerManager"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Texture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Texture2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Texture2DArray"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Texture3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextureButton"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextureLayered"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextureProgressBar"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TextureRect"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Theme"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ThemeDB"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Thread"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TileData"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TileMap"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TileMapPattern"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TileSet"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TileSetAtlasSource"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TileSetScenesCollectionSource"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TileSetSource"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Time"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Timer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TLSOptions"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TorusMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TouchScreenButton"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Transform2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Transform3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Translation"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TranslationServer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Tree"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TreeItem"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TriangleMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "TubeTrailMesh"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Tween"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Tweener"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "UDPServer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "UndoRedo"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "UPNP"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "UPNPDevice"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Variant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VBoxContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Vector2"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Vector2i"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Vector3"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Vector3i"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Vector4"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Vector4i"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VehicleBody3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VehicleWheel3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VFlowContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VideoStream"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VideoStreamPlayback"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VideoStreamPlayer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VideoStreamTheora"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Viewport"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ViewportTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisibleOnScreenEnabler2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisibleOnScreenEnabler3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisibleOnScreenNotifier2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisibleOnScreenNotifier3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualInstance3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShader"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNode"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeBillboard"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeBooleanConstant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeBooleanParameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeClamp"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeColorConstant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeColorFunc"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeColorOp"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeColorParameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeComment"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeCompare"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeConstant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeCubemap"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeCubemapParameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeCurveTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeCurveXYZTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeCustom"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeDerivativeFunc"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeDeterminant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeDistanceFade"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeDotProduct"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeExpression"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeFaceForward"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeFloatConstant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeFloatFunc"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeFloatOp"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeFloatParameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeFresnel"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeGlobalExpression"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeGroupBase"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeIf"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeInput"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeIntConstant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeIntFunc"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeIntOp"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeIntParameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeIs"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeLinearSceneDepth"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeMix"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeMultiplyAdd"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeOuterProduct"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeOutput"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParameterRef"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParticleAccelerator"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParticleBoxEmitter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParticleConeVelocity"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParticleEmit"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParticleEmitter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParticleMeshEmitter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParticleMultiplyByAxisAngle"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParticleOutput"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParticleRandomness"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParticleRingEmitter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeParticleSphereEmitter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeProximityFade"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeRandomRange"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeRemap"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeResizableBase"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeSample3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeScreenUVToSDF"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeSDFRaymarch"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeSDFToScreenUV"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeSmoothStep"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeStep"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeSwitch"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTexture"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTexture2DArray"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTexture2DArrayParameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTexture2DParameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTexture3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTexture3DParameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTextureParameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTextureParameterTriplanar"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTextureSDF"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTextureSDFNormal"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTransformCompose"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTransformConstant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTransformDecompose"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTransformFunc"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTransformOp"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTransformParameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeTransformVecMult"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeUIntConstant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeUIntFunc"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeUIntOp"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeUIntParameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeUVFunc"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeUVPolarCoord"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVarying"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVaryingGetter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVaryingSetter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVec2Constant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVec2Parameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVec3Constant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVec3Parameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVec4Constant"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVec4Parameter"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVectorBase"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVectorCompose"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVectorDecompose"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVectorDistance"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVectorFunc"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVectorLen"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVectorOp"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VisualShaderNodeVectorRefract"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VoxelGI"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VoxelGIData"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VScrollBar"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VSeparator"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VSlider"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "VSplitContainer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WeakRef"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WebRTCDataChannel"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WebRTCDataChannelExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WebRTCMultiplayerPeer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WebRTCPeerConnection"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WebRTCPeerConnectionExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WebSocketMultiplayerPeer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WebSocketPeer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WebXRInterface"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "Window"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WorkerThreadPool"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "World2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "World3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WorldBoundaryShape2D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WorldBoundaryShape3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "WorldEnvironment"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "X509Certificate"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "XMLParser"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "XRAnchor3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "XRCamera3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "XRController3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "XRInterface"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "XRInterfaceExtension"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "XRNode3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "XROrigin3D"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "XRPose"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "XRPositionalTracker"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "XRServer"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ZIPPacker"
+		},
+		"props": {}
+	},
+	{
+		"params": {
+			"className": "ZIPReader"
+		},
+		"props": {}
+	}
+]

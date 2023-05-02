@@ -1,0 +1,5574 @@
+{
+	"AESContext": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"AStar2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"AStar3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"AStarGrid2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"AcceptDialog": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimatableBody2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimatableBody3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimatedSprite2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimatedSprite3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimatedTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Animation": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationLibrary": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNode": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeAdd2": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeAdd3": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeAnimation": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeBlend2": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeBlend3": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeBlendSpace1D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeBlendSpace2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeBlendTree": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeOneShot": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeOutput": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeStateMachine": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeStateMachinePlayback": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeStateMachineTransition": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeSync": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeTimeScale": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeTimeSeek": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationNodeTransition": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationPlayer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationRootNode": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AnimationTrackEditPlugin": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"AnimationTree": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Area2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Area3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ArrayMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ArrayOccluder3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AspectRatioContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"AtlasTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioBusLayout": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffect": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectAmplify": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectBandLimitFilter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectBandPassFilter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectCapture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectChorus": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectCompressor": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectDelay": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectDistortion": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectEQ": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectEQ10": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectEQ21": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectEQ6": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectFilter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectHighPassFilter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectHighShelfFilter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectInstance": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectLimiter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectLowPassFilter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectLowShelfFilter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectNotchFilter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectPanner": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectPhaser": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectPitchShift": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectRecord": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectReverb": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectSpectrumAnalyzer": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectSpectrumAnalyzerInstance": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioEffectStereoEnhance": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioListener2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioListener3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioServer": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"AudioStream": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamGenerator": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamGeneratorPlayback": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamMP3": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamMicrophone": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamOggVorbis": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamPlayback": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamPlaybackOggVorbis": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamPlaybackPolyphonic": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamPlaybackResampled": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamPlayer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamPlayer2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamPlayer3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamPolyphonic": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamRandomizer": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"AudioStreamWAV": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"BackBufferCopy": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"BaseButton": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"BaseMaterial3D": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"BitMap": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Bone2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"BoneAttachment3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"BoneMap": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"BoxContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"BoxMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"BoxOccluder3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"BoxShape3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Button": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ButtonGroup": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CPUParticles2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CPUParticles3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CSGBox3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CSGCombiner3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CSGCylinder3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CSGMesh3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CSGPolygon3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CSGPrimitive3D": [
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CSGShape3D": [
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CSGSphere3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CSGTorus3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CallbackTweener": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"Camera2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Camera3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CameraAttributes": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CameraAttributesPhysical": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CameraAttributesPractical": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CameraFeed": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"CameraServer": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"CameraTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CanvasGroup": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CanvasItem": [
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CanvasItemMaterial": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CanvasLayer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CanvasModulate": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CanvasTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CapsuleMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CapsuleShape2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CapsuleShape3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CenterContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CharFXTransform": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"CharacterBody2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CharacterBody3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CheckBox": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CheckButton": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CircleShape2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ClassDB": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"CodeEdit": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CodeHighlighter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CollisionObject2D": [
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CollisionObject3D": [
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CollisionPolygon2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CollisionPolygon3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CollisionShape2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CollisionShape3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ColorPicker": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ColorPickerButton": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ColorRect": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"CompressedCubemap": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CompressedCubemapArray": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CompressedTexture2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CompressedTexture2DArray": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CompressedTexture3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CompressedTextureLayered": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ConcavePolygonShape2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ConcavePolygonShape3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ConeTwistJoint3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ConfigFile": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"ConfirmationDialog": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Container": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Control": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ConvexPolygonShape2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ConvexPolygonShape3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Crypto": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"CryptoKey": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Cubemap": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CubemapArray": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Curve": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Curve2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Curve3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CurveTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CurveXYZTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CylinderMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"CylinderShape3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"DTLSServer": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"DampedSpringJoint2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Decal": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"DirAccess": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"DirectionalLight2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"DirectionalLight3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"DisplayServer": [
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"ENetConnection": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"ENetMultiplayerPeer": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"ENetPacketPeer": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"EditorCommandPalette": [
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorDebuggerPlugin": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorDebuggerSession": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorExportPlatform": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorExportPlugin": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorFeatureProfile": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorFileDialog": [
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorFileSystem": [
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorFileSystemDirectory": [
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorFileSystemImportFormatSupportQuery": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorImportPlugin": [
+		"is_refcounted",
+		"resource",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorInspector": [
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorInspectorPlugin": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorInterface": [
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorNode3DGizmo": [
+		"is_refcounted",
+		"Node3D",
+		"Node3D",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorNode3DGizmoPlugin": [
+		"is_refcounted",
+		"Node3D",
+		"resource",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorPaths": [
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorPlugin": [
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorProperty": [
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorResourceConversionPlugin": [
+		"is_refcounted",
+		"resource",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorResourcePicker": [
+		"resource",
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorResourcePreview": [
+		"resource",
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorResourcePreviewGenerator": [
+		"is_refcounted",
+		"resource",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorSceneFormatImporter": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorSceneFormatImporterBlend": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorSceneFormatImporterFBX": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorSceneFormatImporterGLTF": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorScenePostImport": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorScenePostImportPlugin": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorScript": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorScriptPicker": [
+		"resource",
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorSelection": [
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorSettings": [
+		"is_refcounted",
+		"resource",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorSpinSlider": [
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorSyntaxHighlighter": [
+		"is_refcounted",
+		"resource",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorTranslationParserPlugin": [
+		"is_refcounted",
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorUndoRedoManager": [
+		"editor",
+		"not_builtin_classes"
+	],
+	"EditorVCSInterface": [
+		"editor",
+		"not_builtin_classes"
+	],
+	"EncodedObjectAsID": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"Engine": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"EngineDebugger": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"EngineProfiler": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"Environment": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Expression": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"FastNoiseLite": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"FileAccess": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"FileDialog": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"FileSystemDock": [
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"FlowContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"FogMaterial": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"FogVolume": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Font": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"FontFile": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"FontVariation": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"FramebufferCacheRD": [
+		"core",
+		"not_builtin_classes"
+	],
+	"GDExtension": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GDExtensionManager": [
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"GDScript": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GDScriptEditorTranslationParserPlugin": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"GDScriptNativeClass": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFAccessor": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFAnimation": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFBufferView": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFCamera": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFDocument": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFDocumentExtension": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFDocumentExtensionConvertImporterMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFLight": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFNode": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFSkeleton": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFSkin": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFSpecGloss": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFState": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GLTFTextureSampler": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GPUParticles2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GPUParticles3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GPUParticlesAttractor3D": [
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GPUParticlesAttractorBox3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GPUParticlesAttractorSphere3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GPUParticlesAttractorVectorField3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GPUParticlesCollision3D": [
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GPUParticlesCollisionBox3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GPUParticlesCollisionHeightField3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GPUParticlesCollisionSDF3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GPUParticlesCollisionSphere3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Generic6DOFJoint3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Geometry2D": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"Geometry3D": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"GeometryInstance3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GodotPhysicsServer2D": [
+		"core",
+		"not_builtin_classes"
+	],
+	"GodotPhysicsServer3D": [
+		"core",
+		"not_builtin_classes"
+	],
+	"Gradient": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GradientTexture1D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GradientTexture2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"GraphEdit": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GraphNode": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GridContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GridMap": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"GrooveJoint2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"HBoxContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"HFlowContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"HMACContext": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"HScrollBar": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"HSeparator": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"HSlider": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"HSplitContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"HTTPClient": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"HTTPRequest": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"HashingContext": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"HeightMapShape3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"HingeJoint3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"IP": [
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"IPUnix": [
+		"core",
+		"not_builtin_classes"
+	],
+	"Image": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ImageFormatLoader": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"ImageFormatLoaderExtension": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"ImageTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ImageTexture3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ImageTextureLayered": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ImmediateMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ImporterMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ImporterMeshInstance3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Input": [
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"InputEvent": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventAction": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventFromWindow": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventGesture": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventJoypadButton": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventJoypadMotion": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventKey": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventMIDI": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventMagnifyGesture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventMouse": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventMouseButton": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventMouseMotion": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventPanGesture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventScreenDrag": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventScreenTouch": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventShortcut": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputEventWithModifiers": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"InputMap": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"InstancePlaceholder": [
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"IntervalTweener": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"ItemList": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"JNISingleton": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"JSON": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"JSONRPC": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"JavaClass": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"JavaClassWrapper": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"JavaScriptBridge": [
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"JavaScriptObject": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"Joint2D": [
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Joint3D": [
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"KinematicCollision2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"KinematicCollision3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"Label": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Label3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"LabelSettings": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Light2D": [
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Light3D": [
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"LightOccluder2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"LightmapGI": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"LightmapGIData": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"LightmapProbe": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Lightmapper": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"LightmapperRD": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"Line2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"LineEdit": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"LinkButton": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"MainLoop": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"MarginContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Marker2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Marker3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Marshalls": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"Material": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"MenuBar": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"MenuButton": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Mesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"MeshDataTool": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"MeshInstance2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"MeshInstance3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"MeshLibrary": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"MeshTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"MethodTweener": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"MissingNode": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"MissingResource": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"MobileVRInterface": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"MovieWriter": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"MovieWriterMJPEG": [
+		"core",
+		"not_builtin_classes"
+	],
+	"MovieWriterPNGWAV": [
+		"core",
+		"not_builtin_classes"
+	],
+	"MultiMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"MultiMeshInstance2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"MultiMeshInstance3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"MultiplayerAPI": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"MultiplayerAPIExtension": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"MultiplayerPeer": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"MultiplayerPeerExtension": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"MultiplayerSpawner": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"MultiplayerSynchronizer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Mutex": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationAgent2D": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationAgent3D": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationLink2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationLink3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationMeshGenerator": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"NavigationObstacle2D": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationObstacle3D": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationPathQueryParameters2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationPathQueryParameters3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationPathQueryResult2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationPathQueryResult3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationPolygon": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationRegion2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationRegion3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"NavigationServer2D": [
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"NavigationServer3D": [
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"NinePatchRect": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Node": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Node2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Node3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Node3DGizmo": [
+		"is_refcounted",
+		"Node3D",
+		"core",
+		"not_builtin_classes"
+	],
+	"Noise": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"NoiseTexture2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ORMMaterial3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"OS": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"Object": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"Occluder3D": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"OccluderInstance3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"OccluderPolygon2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"OfflineMultiplayerPeer": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"OggPacketSequence": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"OggPacketSequencePlayback": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"OmniLight3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"OpenXRAction": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"OpenXRActionMap": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"OpenXRActionSet": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"OpenXRHand": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"OpenXRIPBinding": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"OpenXRInteractionProfile": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"OpenXRInterface": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"OptimizedTranslation": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"OptionButton": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PCKPacker": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PackedDataContainer": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PackedDataContainerRef": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"PackedScene": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PacketPeer": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"PacketPeerDTLS": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PacketPeerExtension": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PacketPeerStream": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PacketPeerUDP": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"Panel": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PanelContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PanoramaSkyMaterial": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ParallaxBackground": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ParallaxLayer": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ParticleProcessMaterial": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Path2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Path3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PathFollow2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PathFollow3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Performance": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"PhysicalBone2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicalBone3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicalSkyMaterial": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsBody2D": [
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsBody3D": [
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsDirectBodyState2D": [
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsDirectBodyState2DExtension": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsDirectBodyState3D": [
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsDirectBodyState3DExtension": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsDirectSpaceState2D": [
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsDirectSpaceState2DExtension": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsDirectSpaceState3D": [
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsDirectSpaceState3DExtension": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsMaterial": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsPointQueryParameters2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsPointQueryParameters3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsRayQueryParameters2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsRayQueryParameters3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsServer2D": [
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"PhysicsServer2DExtension": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsServer2DManager": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"PhysicsServer3D": [
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"PhysicsServer3DExtension": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsServer3DManager": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"PhysicsServer3DRenderingServerHandler": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsShapeQueryParameters2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsShapeQueryParameters3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsTestMotionParameters2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsTestMotionParameters3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsTestMotionResult2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PhysicsTestMotionResult3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"PinJoint2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PinJoint3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PlaceholderCubemap": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PlaceholderCubemapArray": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PlaceholderMaterial": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PlaceholderMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PlaceholderTexture2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PlaceholderTexture2DArray": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PlaceholderTexture3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PlaceholderTextureLayered": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PlaneMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PointLight2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PointMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Polygon2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PolygonOccluder3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PolygonPathFinder": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Popup": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PopupMenu": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PopupPanel": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"PortableCompressedTexture2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PrimitiveMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"PrismMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ProceduralSkyMaterial": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ProgressBar": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ProjectSettings": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"PropertyTweener": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"QuadMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"QuadOccluder3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDAttachmentFormat": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDFramebufferPass": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDPipelineColorBlendState": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDPipelineColorBlendStateAttachment": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDPipelineDepthStencilState": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDPipelineMultisampleState": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDPipelineRasterizationState": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDPipelineSpecializationConstant": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDSamplerState": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDShaderFile": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDShaderSPIRV": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDShaderSource": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDTextureFormat": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDTextureView": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDUniform": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RDVertexAttribute": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RandomNumberGenerator": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"Range": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"RayCast2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"RayCast3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"RectangleShape2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"RefCounted": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"ReferenceRect": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ReflectionProbe": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"RegEx": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RegExMatch": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"RemoteTransform2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"RemoteTransform3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"RenderingDevice": [
+		"core",
+		"not_builtin_classes"
+	],
+	"RenderingServer": [
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"Resource": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ResourceFormatImporterSaver": [
+		"is_refcounted",
+		"resource",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ResourceFormatLoader": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ResourceFormatSaver": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ResourceImporter": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ResourceLoader": [
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"ResourcePreloader": [
+		"is_instantiable",
+		"resource",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ResourceSaver": [
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"ResourceUID": [
+		"resource",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"RibbonTrailMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"RichTextEffect": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"RichTextLabel": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"RigidBody2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"RigidBody3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"RootMotionView": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SceneMultiplayer": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"SceneReplicationConfig": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SceneState": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"SceneTree": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"SceneTreeTimer": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"Script": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ScriptCreateDialog": [
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"ScriptEditor": [
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"ScriptEditorBase": [
+		"Node",
+		"editor",
+		"not_builtin_classes"
+	],
+	"ScriptExtension": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ScriptLanguage": [
+		"core",
+		"not_builtin_classes"
+	],
+	"ScriptLanguageExtension": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"ScrollBar": [
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ScrollContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SegmentShape2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Semaphore": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"SeparationRayShape2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SeparationRayShape3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Separator": [
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Shader": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ShaderGlobalsOverride": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ShaderInclude": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ShaderMaterial": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Shape2D": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Shape3D": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ShapeCast2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ShapeCast3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Shortcut": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Skeleton2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Skeleton3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkeletonIK3D": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkeletonModification2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkeletonModification2DCCDIK": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkeletonModification2DFABRIK": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkeletonModification2DJiggle": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkeletonModification2DLookAt": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkeletonModification2DPhysicalBones": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkeletonModification2DStackHolder": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkeletonModification2DTwoBoneIK": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkeletonModificationStack2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkeletonProfile": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkeletonProfileHumanoid": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Skin": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SkinReference": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"Sky": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Slider": [
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SliderJoint3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SoftBody3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SphereMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SphereOccluder3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SphereShape3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SpinBox": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SplitContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SpotLight3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SpringArm3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Sprite2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Sprite3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SpriteBase3D": [
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SpriteFrames": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"StandardMaterial3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"StaticBody2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"StaticBody3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"StreamPeer": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"StreamPeerBuffer": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"StreamPeerExtension": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"StreamPeerGZIP": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"StreamPeerTCP": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"StreamPeerTLS": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"StyleBox": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"StyleBoxEmpty": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"StyleBoxFlat": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"StyleBoxLine": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"StyleBoxTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SubViewport": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SubViewportContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"SurfaceTool": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"SyntaxHighlighter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"SystemFont": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"TCPServer": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"TLSOptions": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"TabBar": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"TabContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextEdit": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextLine": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextParagraph": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextServer": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextServerAdvanced": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextServerDummy": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextServerExtension": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextServerManager": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"Texture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Texture2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Texture2DArray": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Texture3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextureButton": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextureLayered": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextureProgressBar": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"TextureRect": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Theme": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"ThemeDB": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"Thread": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"TileData": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"TileMap": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"TileMapPattern": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"TileSet": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"TileSetAtlasSource": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"TileSetScenesCollectionSource": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"TileSetSource": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Time": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"Timer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"TorusMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"TouchScreenButton": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"Translation": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"TranslationServer": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"Tree": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"TreeItem": [
+		"core",
+		"not_builtin_classes"
+	],
+	"TriangleMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"TubeTrailMesh": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Tween": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"Tweener": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"UDPServer": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"UPNP": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"UPNPDevice": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"UndoRedo": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"UniformSetCacheRD": [
+		"core",
+		"not_builtin_classes"
+	],
+	"VBoxContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VFlowContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VScrollBar": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VSeparator": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VSlider": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VSplitContainer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VehicleBody3D": [
+		"is_instantiable",
+		"vehicle",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VehicleWheel3D": [
+		"is_instantiable",
+		"vehicle",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VideoStream": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VideoStreamPlayback": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VideoStreamPlayer": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VideoStreamTheora": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"Viewport": [
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"ViewportTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisibleOnScreenEnabler2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisibleOnScreenEnabler3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisibleOnScreenNotifier2D": [
+		"is_instantiable",
+		"Node2D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisibleOnScreenNotifier3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualInstance3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShader": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNode": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeBillboard": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeBooleanConstant": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeBooleanParameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeClamp": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeColorConstant": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeColorFunc": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeColorOp": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeColorParameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeComment": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeCompare": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeConstant": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeCubemap": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeCubemapParameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeCurveTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeCurveXYZTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeCustom": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeDerivativeFunc": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeDeterminant": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeDistanceFade": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeDotProduct": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeExpression": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeFaceForward": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeFloatConstant": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeFloatFunc": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeFloatOp": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeFloatParameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeFresnel": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeGlobalExpression": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeGroupBase": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeIf": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeInput": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeIntConstant": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeIntFunc": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeIntOp": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeIntParameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeIs": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeLinearSceneDepth": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeMix": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeMultiplyAdd": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeOuterProduct": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeOutput": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParameter": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParameterRef": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParticleAccelerator": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParticleBoxEmitter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParticleConeVelocity": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParticleEmit": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParticleEmitter": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParticleMeshEmitter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParticleMultiplyByAxisAngle": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParticleOutput": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParticleRandomness": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParticleRingEmitter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeParticleSphereEmitter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeProximityFade": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeRandomRange": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeRemap": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeResizableBase": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeSDFRaymarch": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeSDFToScreenUV": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeSample3D": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeScreenUVToSDF": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeSmoothStep": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeStep": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeSwitch": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTexture": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTexture2DArray": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTexture2DArrayParameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTexture2DParameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTexture3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTexture3DParameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTextureParameter": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTextureParameterTriplanar": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTextureSDF": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTextureSDFNormal": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTransformCompose": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTransformConstant": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTransformDecompose": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTransformFunc": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTransformOp": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTransformParameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeTransformVecMult": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeUIntConstant": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeUIntFunc": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeUIntOp": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeUIntParameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeUVFunc": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeUVPolarCoord": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVarying": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVaryingGetter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVaryingSetter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVec2Constant": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVec2Parameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVec3Constant": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVec3Parameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVec4Constant": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVec4Parameter": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVectorBase": [
+		"is_refcounted",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVectorCompose": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVectorDecompose": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVectorDistance": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVectorFunc": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVectorLen": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVectorOp": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VisualShaderNodeVectorRefract": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"VoxelGI": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"VoxelGIData": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"WeakRef": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"WebRTCDataChannel": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"WebRTCDataChannelExtension": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"WebRTCMultiplayerPeer": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"WebRTCPeerConnection": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"WebRTCPeerConnectionExtension": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"WebSocketMultiplayerPeer": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"WebSocketPeer": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"WebXRInterface": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"Window": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"WorkerThreadPool": [
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"World2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"World3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"WorldBoundaryShape2D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"WorldBoundaryShape3D": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"WorldEnvironment": [
+		"is_instantiable",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"X509Certificate": [
+		"is_refcounted",
+		"is_instantiable",
+		"resource",
+		"core",
+		"not_builtin_classes"
+	],
+	"XMLParser": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"XRAnchor3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"XRCamera3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"XRController3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"XRInterface": [
+		"is_refcounted",
+		"core",
+		"not_builtin_classes"
+	],
+	"XRInterfaceExtension": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"XRNode3D": [
+		"Node3D",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"XROrigin3D": [
+		"is_instantiable",
+		"Node3D",
+		"Node",
+		"core",
+		"not_builtin_classes"
+	],
+	"XRPose": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"XRPositionalTracker": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"XRServer": [
+		"is_instantiable",
+		"core",
+		"not_builtin_classes",
+		"singleton"
+	],
+	"ZIPPacker": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"ZIPReader": [
+		"is_refcounted",
+		"is_instantiable",
+		"core",
+		"not_builtin_classes"
+	],
+	"Nil": [
+		"builtin_classes"
+	],
+	"bool": [
+		"builtin_classes"
+	],
+	"int": [
+		"builtin_classes"
+	],
+	"float": [
+		"builtin_classes"
+	],
+	"String": [
+		"String",
+		"builtin_classes"
+	],
+	"Vector2": [
+		"float",
+		"builtin_classes"
+	],
+	"Vector2i": [
+		"int",
+		"builtin_classes"
+	],
+	"Rect2": [
+		"builtin_classes"
+	],
+	"Rect2i": [
+		"builtin_classes"
+	],
+	"Vector3": [
+		"float",
+		"builtin_classes"
+	],
+	"Vector3i": [
+		"int",
+		"builtin_classes"
+	],
+	"Transform2D": [
+		"Vector2",
+		"builtin_classes"
+	],
+	"Vector4": [
+		"float",
+		"builtin_classes"
+	],
+	"Vector4i": [
+		"int",
+		"builtin_classes"
+	],
+	"Plane": [
+		"builtin_classes"
+	],
+	"Quaternion": [
+		"float",
+		"builtin_classes"
+	],
+	"AABB": [
+		"builtin_classes"
+	],
+	"Basis": [
+		"Vector3",
+		"builtin_classes"
+	],
+	"Transform3D": [
+		"builtin_classes"
+	],
+	"Projection": [
+		"Vector4",
+		"builtin_classes"
+	],
+	"Color": [
+		"float",
+		"builtin_classes"
+	],
+	"StringName": [
+		"builtin_classes"
+	],
+	"NodePath": [
+		"builtin_classes"
+	],
+	"RID": [
+		"builtin_classes"
+	],
+	"Callable": [
+		"builtin_classes"
+	],
+	"Signal": [
+		"builtin_classes"
+	],
+	"Dictionary": [
+		"Variant",
+		"builtin_classes"
+	],
+	"Array": [
+		"Variant",
+		"builtin_classes"
+	],
+	"PackedByteArray": [
+		"int",
+		"builtin_classes"
+	],
+	"PackedInt32Array": [
+		"int",
+		"builtin_classes"
+	],
+	"PackedInt64Array": [
+		"int",
+		"builtin_classes"
+	],
+	"PackedFloat32Array": [
+		"float",
+		"builtin_classes"
+	],
+	"PackedFloat64Array": [
+		"float",
+		"builtin_classes"
+	],
+	"PackedStringArray": [
+		"String",
+		"builtin_classes"
+	],
+	"PackedVector2Array": [
+		"Vector2",
+		"builtin_classes"
+	],
+	"PackedVector3Array": [
+		"Vector3",
+		"builtin_classes"
+	],
+	"PackedColorArray": [
+		"Color",
+		"builtin_classes"
+	],
+	"Variant": [
+		"from xmlPathsJson"
+	],
+	"MeshConvexDecompositionSettings": [
+		"from xmlPathsJson"
+	],
+	"EditorExportPlatformPC": [
+		"from xmlPathsJson"
+	],
+	"@GlobalScope": [
+		"from xmlPathsJson"
+	],
+	"EditorExportPlatformWindows": [
+		"from xmlPathsJson"
+	],
+	"EditorExportPlatformWeb": [
+		"from xmlPathsJson"
+	],
+	"EditorExportPlatformMacOS": [
+		"from xmlPathsJson"
+	],
+	"EditorExportPlatformLinuxBSD": [
+		"from xmlPathsJson"
+	],
+	"EditorExportPlatformIOS": [
+		"from xmlPathsJson"
+	],
+	"EditorExportPlatformAndroid": [
+		"from xmlPathsJson"
+	],
+	"TextServerFallback": [
+		"from xmlPathsJson"
+	],
+	"NoiseTexture3D": [
+		"from xmlPathsJson"
+	],
+	"GodotSharp": [
+		"from xmlPathsJson"
+	],
+	"CSharpScript": [
+		"from xmlPathsJson"
+	],
+	"GLTFPhysicsBody": [
+		"from xmlPathsJson"
+	],
+	"GLTFCollider": [
+		"from xmlPathsJson"
+	],
+	"@GDScript": [
+		"from xmlPathsJson"
+	]
+}

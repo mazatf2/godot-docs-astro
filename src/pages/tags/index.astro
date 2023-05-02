@@ -1,0 +1,13 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import tagsJson from '../../data/tags.json'
+import tagpagesJson from '../../data/tagpages.json'
+---
+
+<Layout title="Tags">
+	<h1>Tags</h1>
+	<menu>
+		{Object.entries(tagpagesJson).map(([i, className]) =>
+			<li><a href={'/tags/' + i}>{i}</a></li>)}
+	</menu>
+</Layout>

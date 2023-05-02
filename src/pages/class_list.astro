@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro'
+import classesJson from '../data/classes.json'
+import tagsJson from '../data/tags.json'
+
+const sep = (index, arr) => index < arr.length - 1 ? ', ' : ''
+/*
+astro jsx adds extra whitespaces to {} and <tags> vs react jsx
+<>
+	<a href=...</a>
+	<Sep/> //extra whitespace
+	{...} //extra whitespace
+</>
+<>
+	<a href=...</a><Sep/> //no extra whitespace
+</>
+ */
+---
+
+<Layout title="Class list">
+	<table>
+		<tbody>
+		{classesJson.map(i =>
+			<tr>
+				<td>
+					<a href={'/classes/' + i.params.className}>
+						{i.params.className}
+					</a>
+				</td>
+				<td>
+					{tagsJson[i.params.className].map((tag, index, arr) =>
+						<>
+							<a href={'/tags/' + tag}>{tag}</a>{sep(index, arr)}
+						</>
+					)}
+				</td>
+			</tr>
+		)}
+		</tbody>
+	</table>
+</Layout>

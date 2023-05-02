@@ -1,0 +1,10 @@
+---
+export interface Props {
+	id: string
+}
+const {id} = Astro.props
+---
+<h2 id={id}>
+	<slot/>
+	<a href={'#' + id}>#</a>
+</h2>

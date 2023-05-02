@@ -1,0 +1,16 @@
+---
+import tagpagesJson from '../../data/tagpages.json'
+import Layout from '../../layouts/Layout.astro'
+export async function getStaticPaths() {
+	return Object.entries(tagpagesJson).map(([i, pages]) => ({params: {tag: i}}))
+}
+---
+<Layout title={'Tagged' + Astro.params.tag}>
+	<h1>Tagged <span class="tagQuote">{Astro.params.tag}</span></h1>
+	<ul>
+		{tagpagesJson[Astro.params.tag].map(i =>
+			<li><a href={'/classes/' + i}>{i}</a></li>
+		)}
+	</ul>
+	See <a href={'/tags'}>all tags</a>
+</Layout>
