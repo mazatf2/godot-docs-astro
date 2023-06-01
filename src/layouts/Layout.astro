@@ -9,24 +9,82 @@ let {title} = Astro.props
 <html lang="en">
 <head>
 	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
 	<meta name="generator" content={Astro.generator}/>
 	<title>{title}</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
 </head>
 <body>
 <header>
-	<a href="/">Home</a>
-	<a href="/class_list">Class list</a>
-	<a href="/tags">Tags</a>
+	<nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="/">
+				<span class="icon is-large">
+					<i class="mdi mdi-36px mdi-bulma" aria-hidden="true"></i>
+				</span>
+			</a>
+			<a role="button" class="navbar-burger" data-target="navbarBasicExample">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+		<div id="navbarBasicExample" class="navbar-menu">
+			<div class="navbar-start">
+				<a href="/" class="navbar-item">
+					<span class="icon">
+					 	 <i class="mdi mdi-home" aria-hidden="true"></i>
+					</span>
+					<span>Docs</span>
+				</a>
+				<a href="/class_list" class="navbar-item">
+					 <span class="icon">
+					 	 <i class="mdi mdi-view-list" aria-hidden="true"></i>
+					</span>
+					<span>
+					Class list
+					</span>
+				</a>
+				<a href="/tags" class="navbar-item">
+					 <span class="icon">
+					 	 <i class="mdi mdi-tag-multiple" aria-hidden="true"></i>
+					</span>
+					<span>Tags</span>
+				</a>
+			</div>
+			<div class="navbar-end">
+			</div>
+		</div>
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				//https://versions.bulma.io/0.9.4/documentation/components/navbar/#navbarJsExample
+				// Get all "navbar-burger" elements
+				const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0)
+				// Add a click event on each of them
+				$navbarBurgers.forEach(el => {
+					el.addEventListener('click', () => {
+						// Get the target from the "data-target" attribute
+						const target = el.dataset.target
+						const $target = document.getElementById(target)
+						// Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+						el.classList.toggle('is-active')
+						$target.classList.toggle('is-active')
+					})
+				})
+			})
+		</script>
+	</nav>
 </header>
-<main>
-	<slot/>
+<main class="section">
+	<div class="container">
+		<slot/>
+	</div>
 </main>
-<footer>
+<footer class="footer">
 </footer>
 </body>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
 </html>
 <script type="text/javascript">
 	window.addEventListener('DOMContentLoaded', (event) => {

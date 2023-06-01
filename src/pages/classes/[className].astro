@@ -47,6 +47,7 @@ const {
 }: xmlParameters = await xmlParameters(xmlPath)
 ---
 <Layout title={className}>
+	<div class="content">
 	<H2 id="Inheritance">Inheritance</H2>
 	<Inherits className={className}/>
 	<details open>
@@ -176,4 +177,5 @@ const {
 	{signals.map(el =>
 		<Tutorials el={el}/>
 	)}
+	</div>
 </Layout>

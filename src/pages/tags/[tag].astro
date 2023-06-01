@@ -6,11 +6,13 @@ export async function getStaticPaths() {
 }
 ---
 <Layout title={'Tagged' + Astro.params.tag}>
-	<h1>Tagged <span class="tagQuote">{Astro.params.tag}</span></h1>
+	<div class="content">
+	<h1 class="title">Tagged <span class="tagQuote">{Astro.params.tag}</span></h1>
 	<ul>
 		{tagpagesJson[Astro.params.tag].map(i =>
 			<li><a href={'/classes/' + i}>{i}</a></li>
 		)}
 	</ul>
 	See <a href={'/tags'}>all tags</a>
+	</div>
 </Layout>
