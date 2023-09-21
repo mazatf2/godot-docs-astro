@@ -8,8 +8,5 @@ process.on('uncaughtException', err => {
 
 // https://astro.build/config
 export default defineConfig({
-	integrations: [react(), mdx()],
-	ssr: {
-		external: ['water.css']
-	}
+	integrations: [react(), mdx()]
 });

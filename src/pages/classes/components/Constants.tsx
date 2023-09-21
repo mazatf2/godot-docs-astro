@@ -4,6 +4,7 @@ import {handleDesc} from './HandleDesc'
 import type {constant} from '../../../data/class.xsd'
 import {BitfieldTag, DeprecatedTag, ExperimentalTag} from './TagLabels/TagLabels'
 import {H3} from './H3'
+import {Code} from "./Themes.tsx";
 
 export const Constants = ({el}: { el: xmlDoc }) => {
 	const attrs = Object.fromEntries(el.attributes
@@ -26,17 +27,21 @@ export const ConstantsList = ({el}: { el: xmlDoc }) => {
 	//for @GlobalScope, @GDScript
 	if (attrs.enum) {
 		return <Fragment>
-			const{' '}
-			{attrs.name}{' = ' + attrs.value}
-			{attrs.enum && ' enum ' + attrs.enum}
+			<Code>
+				const{' '}
+				{attrs.name}{' = ' + attrs.value}
+				{attrs.enum && ' enum ' + attrs.enum}
+			</Code>
 			{tagsGroup.length > 0 && tagsGroup}
 		</Fragment>
 	}
 
 	return <Fragment>
-		<>const .</>
-		{attrs.name}{' = ' + attrs.value}
-		{attrs.enum && ' enum ' + attrs.enum}
+		<Code>
+			<>const </>
+			{attrs.name}{' = ' + attrs.value}
+			{attrs.enum && ' enum ' + attrs.enum}
+		</Code>
 		{tagsGroup.length > 0 && tagsGroup}
 	</Fragment>
 }

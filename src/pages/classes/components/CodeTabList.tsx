@@ -2,6 +2,7 @@ import React from 'react'
 // @ts-ignore
 import {DOMParser} from 'linkedom'
 import type {xmlDoc} from './xmlParameters'
+import { Code } from './Themes'
 
 const tagnames_index_by_label: Record<string, string> = {
 	'a-code': 'Code',
@@ -30,7 +31,7 @@ export const CodeTabList = ({code}: { code: string }) => {
 
 	return <>
 		{elArr.map(i =>
-			<Code needsBlocks={needsBlocks} el={i}/>
+			<CodeContent needsBlocks={needsBlocks} el={i}/>
 		)}
 	</>
 }
@@ -40,17 +41,19 @@ type Code = {
 	el: xmlDoc | undefined
 }
 
-const Code = ({needsBlocks, el}: Code) => {
+const CodeContent = ({needsBlocks, el}: Code) => {
 	if (!el) return <></>
 	const label = tagnames_index_by_label[el.tagName] || ''
+	let language = 'gdscript'
+	if(el.tagName && el.tagName.includes('csharp')){
+		language = 'csharp'
+	}
 	return <>
 		{needsBlocks && <>
 			<p>{label}</p>
 		</>}
-		<pre>
-		<code>
+		<Code language={language} inline={false}>
 			{el.textContent.trim()}
-		</code>
-	</pre>
+		</Code>
 	</>
 }

@@ -6,6 +6,7 @@ import type {annotation, annotation_param, annotation_return} from '../../../dat
 import {H3} from './H3'
 import {handleDesc} from './HandleDesc'
 import {sep, sepLast} from './Methods'
+import {Code} from "./Themes.tsx";
 
 export const space: ' ' = ' '
 export const returnTypeArrow: ' -> ' = ' -> '
@@ -41,7 +42,7 @@ export const AnnotationsList = ({el}: { el: xmlDoc }) => {
 		}))
 
 	if (annotation_param.length === 0) {
-		return <Fragment>
+		return <Code>
 			{annotation.qualifiers && annotation.qualifiers + space}
 			{annotation.name}
 			{annotation_return.length > 0 && fnReturnArrow}
@@ -49,11 +50,11 @@ export const AnnotationsList = ({el}: { el: xmlDoc }) => {
 				{return_.enum.valid() && return_.enum + space}
 				{return_.type.valid() && return_.type + space}
 			</Fragment>)}
-		</Fragment>
+		</Code>
 	}
 
 	const varArg = annotation.qualifiers?.toString() === 'vararg'
-	return <Fragment>
+	return <Code>
 		{annotation.qualifiers && annotation.qualifiers + space}
 		{annotation.name}
 		(
@@ -72,5 +73,5 @@ export const AnnotationsList = ({el}: { el: xmlDoc }) => {
 			{return_.type.valid() && return_.type + space}
 		</Fragment>)}
 
-	</Fragment>
+	</Code>
 }

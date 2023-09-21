@@ -6,6 +6,7 @@ import {H3} from './H3'
 import type {operator, operator_param, operator_return} from '../../../data/class.xsd'
 import {Attr} from './Attr'
 import {ReturnArrow} from './Annotations'
+import {Code} from "./Themes.tsx";
 
 export const Operators = ({el, className}: { el: xmlDoc, className: string }) => {
 	const operator = Object.fromEntries(el.attributes
@@ -36,9 +37,9 @@ export const OperatorsList = ({el, className}: { el: xmlDoc, className: string }
 			enum: new Attr('enum', i),
 		}))
 
-	return <Fragment>
+	return <Code>
 		<RenderOperator operator={operator} operator_param={operator_param} operator_return={operator_return} className={className}/>
-	</Fragment>
+	</Code>
 }
 
 const RenderOperator = ({operator, operator_param, operator_return, className}: { operator: operator, operator_param: operator_param[], operator_return: operator_return[], className: string }) => {

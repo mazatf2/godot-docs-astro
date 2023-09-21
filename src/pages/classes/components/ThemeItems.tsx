@@ -5,6 +5,7 @@ import {handleDesc} from './HandleDesc'
 import type {theme_item} from '../../../data/class.xsd'
 import {H3} from './H3'
 import type {Attr} from './Attr'
+import {Code} from "./Themes.tsx";
 
 export const ThemeItems = ({el}: { el: xmlDoc }) => {
 	const theme_item = Object.fromEntries(el.attributes
@@ -19,9 +20,11 @@ export const ThemeItems = ({el}: { el: xmlDoc }) => {
 export const ThemeItemsList = ({el}: { el: xmlDoc }) => {
 	const theme_item = Object.fromEntries(el.attributes
 		.map(i => [i.name, i.value])) as theme_item
-	return <Fragment>
-		self['{setterToVar(theme_item.data_type)}/{theme_item.name}'] = {theme_item.default || theme_item.data_type} as {theme_item.type}
-	</Fragment>
+	//bug: single quotes are rendered as &#39; so we are using unicode lookalike
+	//"'" => "ꞌ" Latin Small Letter Saltillo
+	return <Code>
+		self[ꞌ{setterToVar(theme_item.data_type)}/{theme_item.name}ꞌ] = {theme_item.default || theme_item.data_type} as {theme_item.type}
+	</Code>
 }
 
 function setterToVar(dataType: Attr) {

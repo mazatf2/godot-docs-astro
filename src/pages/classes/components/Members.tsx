@@ -8,6 +8,8 @@ import type {ExtensionsAPI} from '../../../data/ExtensionsApi'
 
 const extensionApiJson = extensionApiJson2 as ExtensionsAPI
 
+import {Code} from "./Themes.tsx";
+
 export const Members = ({el, className}: { el: xmlDoc, className: string }) => {
 	const attrs = Object.fromEntries(el.attributes
 		.map(i => [i.name, i.value])) as member
@@ -18,7 +20,6 @@ export const Members = ({el, className}: { el: xmlDoc, className: string }) => {
 		{desc}
 	</React.Fragment>
 }
-
 export const MembersList = ({el, className}: { el: xmlDoc, className: string }) => {
 	/*const member: member = Param(el)
 		.map(i => ({
@@ -38,9 +39,10 @@ export const MembersList = ({el, className}: { el: xmlDoc, className: string }) 
 	const enumName = findEnumValue(member, className)
 
 	if (enumName) {
-		return <code>.{member.name} = {enumName}</code>
+		//Area2D gravity_space_override
+		return <Code>var {member.name} = {enumName}</Code>
 	}
-	return <code>.{member.name}: {member.type}{member.default && ' = ' + member.default}</code>
+	return <Code>var {member.name}: {member.type}{member.default && ' = ' + member.default}</Code>
 }
 
 function findEnumValue(member: member, className: string) {

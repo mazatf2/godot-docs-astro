@@ -2,10 +2,10 @@ import {Param, Return_, Returns_error, xmlDoc} from './xmlParameters'
 import React, {Fragment} from 'react'
 import type {method, method_param, method_return, method_returns_error} from '../../../data/class.xsd'
 import {Attr} from './Attr'
-import {Abbr} from './Abbr'
 import {H3} from './H3'
 import {handleDesc} from './HandleDesc'
 import {fnReturnArrow, space} from './Annotations'
+import {Code} from './Themes.tsx'
 
 export const sep = (sep: string, index: number, arr: any[]) => {
 	if (index !== arr.length - 1) {
@@ -40,17 +40,12 @@ export const MethodsList = ({el}: { el: xmlDoc }) => {
 
 	const method_param: Required<method_param>[] = Param(el)
 		.map(i => ({
-			index: new Attr('index', i),
-			name: new Attr('name', i),
-			type: new Attr('type', i),
-			enum: new Attr('enum', i),
-			default: new Attr('default', i),
+			index: new Attr('index', i), name: new Attr('name', i), type: new Attr('type', i), enum: new Attr('enum', i), default: new Attr('default', i),
 		}))
 
 	const method_return: Required<method_return>[] = Return_(el)
 		.map(i => ({
-			type: new Attr('type', i),
-			enum: new Attr('enum', i),
+			type: new Attr('type', i), enum: new Attr('enum', i),
 		}))
 
 	//used only in 1 file: https://github.com/godotengine/godot/blob/4.0.2-stable/doc/classes/ConfigFile.xml#L161
@@ -62,8 +57,8 @@ export const MethodsList = ({el}: { el: xmlDoc }) => {
 		console.log(method_return + 'method_return')
 	}
 
-	return <>
-		<Abbr>{method.qualifiers}</Abbr><code>func <b>{method.name}</b>(
+	return <Code>
+		{maybe(method.qualifiers)}func {method.name}(
 		{method_param.map((i, index, arr) => <Fragment>
 			{i.name}: {i.type}{i.default.valid() && ' = ' + i.default}{i.enum.valid() && ' enum' + i.enum}{sep(', ', index, arr)}
 		</Fragment>)})
@@ -73,7 +68,12 @@ export const MethodsList = ({el}: { el: xmlDoc }) => {
 			{i.enum.valid() && i.enum + sep(space, index, arr)}
 			{sep(' | ', index, arr)}
 		</Fragment>)}
+	</Code>
+}
 
-	</code>
-	</>
+function maybe(str) {
+	if (!str) {
+		return ''
+	}
+	return str + ' '
 }

@@ -8,6 +8,7 @@ import {Attr} from './Attr'
 import {H3} from './H3'
 import {fnReturnArrow, space} from './Annotations'
 import {sep} from './Methods'
+import {Code} from "./Themes.tsx";
 
 export const Constructors = ({el}: { el: xmlDoc }) => {
 	const constructor_ = Object.fromEntries(el.attributes
@@ -41,7 +42,7 @@ export const ConstructorsList = ({el}: { el: xmlDoc }) => {
 			default: new Attr('default', i),
 		}))
 
-	return <Fragment>
+	return <Code>
 		{constructor_.qualifiers && constructor_.qualifiers + space}
 		{constructor_.name}
 		({constructor_param.map((param, index, arr) => <Fragment>
@@ -58,5 +59,5 @@ export const ConstructorsList = ({el}: { el: xmlDoc }) => {
 			{return_.enum.valid() && return_.enum + space}
 			{return_.default.valid() && return_.default + space}
 		</Fragment>)}
-	</Fragment>
+	</Code>
 }

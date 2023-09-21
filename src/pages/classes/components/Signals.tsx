@@ -7,6 +7,7 @@ import type {signal, signal_param} from '../../../data/class.xsd'
 import {H3} from './H3'
 import {Attr} from './Attr'
 import {sep} from './Methods'
+import {Code} from "./Themes.tsx";
 
 export const Signals = ({el}: { el: xmlDoc }) => {
 	const signal = Object.fromEntries(el.attributes
@@ -28,7 +29,7 @@ export const SignalsList = ({el}: { el: xmlDoc }) => {
 			name: new Attr('name', i),
 			type: new Attr('type', i),
 		}))
-	return <Fragment>
+	return <Code>
 		signal {signal.name}
 		(
 		{signal_param.map((signal, index, arr) => <Fragment>
@@ -37,5 +38,5 @@ export const SignalsList = ({el}: { el: xmlDoc }) => {
 			{sep(', ', index, arr)}
 		</Fragment>)}
 		)
-	</Fragment>
+	</Code>
 }
